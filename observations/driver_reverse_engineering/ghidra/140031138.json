@@ -1,0 +1,27 @@
+{
+  "address": "0x140031138",
+  "name": "FUN_140031138",
+  "signature": "undefined __fastcall FUN_140031138(longlong param_1, int param_2, byte param_3)",
+  "callees": [
+    {
+      "address": "0x14002ff18",
+      "name": "FUN_14002ff18",
+      "signature": "int __fastcall FUN_14002ff18(longlong param_1, uint param_2, longlong param_3)"
+    },
+    {
+      "address": "0x140057e50",
+      "name": "__security_check_cookie",
+      "signature": "void __cdecl __security_check_cookie(uintptr_t _StackCookie)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\r\n\r\nvoid FUN_140031138(longlong param_1,int param_2,byte param_3)\r\n\r\n{\r\n  undefined1 auStack_48 [32];\r\n  uint local_28 [4];\r\n  ulonglong local_18;\r\n  \r\n  local_18 \u003d DAT_1400698c0 ^ (ulonglong)auStack_48;\r\n  local_28[0] \u003d param_2 \u003c\u003c 0x14 | (uint)param_3 | 0x70800;\r\n  FUN_14002ff18(param_1,1,(longlong)local_28);\r\n  return;\r\n}\r\n\r\n"
+}

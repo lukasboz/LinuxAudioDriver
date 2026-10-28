@@ -1,0 +1,16 @@
+{
+  "address": "0x140055f24",
+  "name": "FUN_140055f24",
+  "signature": "int __fastcall FUN_140055f24(undefined8 param_1, uint * param_2)",
+  "callees": [],
+  "callers": [
+    {
+      "address": "0x140053be0",
+      "name": "FUN_140053be0",
+      "signature": "undefined4 * __fastcall FUN_140053be0(undefined4 * param_1, longlong param_2, uint * param_3, int param_4)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nint FUN_140055f24(undefined8 param_1,uint *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  int iVar2;\r\n  \r\n  iVar2 \u003d 0xf;\r\n  uVar1 \u003d *param_2 \u003e\u003e 0x14 \u0026 0xf;\r\n  if ((uVar1 \u003d\u003d 0) || (uVar1 \u003d\u003d 1)) {\r\n    iVar2 \u003d (*param_2 \u0026 0xf) + 4;\r\n  }\r\n  else if (uVar1 \u003d\u003d 2) {\r\n    iVar2 \u003d 2;\r\n  }\r\n  else if (uVar1 \u003d\u003d 4) {\r\n    iVar2 \u003d 8;\r\n  }\r\n  else if ((uVar1 \u003d\u003d 8) || (uVar1 \u003d\u003d 9)) {\r\n    iVar2 \u003d 0;\r\n  }\r\n  else if (uVar1 \u003d\u003d 10) {\r\n    iVar2 \u003d 1;\r\n  }\r\n  else if (uVar1 !\u003d 0xb) {\r\n    if (uVar1 \u003d\u003d 0xd) {\r\n      iVar2 \u003d 0x24;\r\n    }\r\n    else {\r\n      iVar2 \u003d 0xffff;\r\n    }\r\n  }\r\n  return iVar2;\r\n}\r\n\r\n"
+}

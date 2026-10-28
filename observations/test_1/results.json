@@ -1,0 +1,1241 @@
+{
+  "created": "2026-10-03T19:42:01.074826+00:00",
+  "card": {
+    "number": 3,
+    "id": "Audio_1",
+    "usb_id": "0b05:1b9b",
+    "physical_path": "/sys/devices/pci0000:00/0000:00:02.1/0000:07:00.0/0000:08:0c.0/0000:13:00.0/usb3/3-6/3-6:1.0",
+    "usb": {
+      "bcdDevice": "0013",
+      "busnum": "3",
+      "devnum": "6",
+      "product": "USB Audio",
+      "manufacturer": "Generic",
+      "usb_sysfs_path": "/sys/devices/pci0000:00/0000:00:02.1/0000:07:00.0/0000:08:0c.0/0000:13:00.0/usb3/3-6"
+    }
+  },
+  "boot_condition": "windows-warm",
+  "routes": [
+    {
+      "numid": 13,
+      "name": "Line Capture Switch",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "BOOLEAN",
+      "access": "rw------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 17,
+      "name": "Mic Capture Switch",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "BOOLEAN",
+      "access": "rw------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "off"
+    },
+    {
+      "numid": 9,
+      "name": "Analog In Capture Switch",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "BOOLEAN",
+      "access": "rw------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    }
+  ],
+  "selectors": [],
+  "untested_controls": [],
+  "controls": [
+    {
+      "numid": 8,
+      "name": "Analog In - Input Jack",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 11,
+      "name": "Clock Source 1 Validity",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 15,
+      "name": "Clock Source 3 Validity",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 19,
+      "name": "Clock Source 4 Validity",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 22,
+      "name": "Clock Source 5 Validity",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 26,
+      "name": "Clock Source 6 Validity",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 29,
+      "name": "Clock Source 8 Validity",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 27,
+      "name": "Headphone - Output Jack",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "off"
+    },
+    {
+      "numid": 12,
+      "name": "Line - Input Jack",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 16,
+      "name": "Mic - Input Jack",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "off"
+    },
+    {
+      "numid": 23,
+      "name": "Speaker - Output Jack",
+      "index": 0,
+      "iface": "CARD",
+      "type": "BOOLEAN",
+      "access": "r-------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 20,
+      "name": "PCM Playback Switch",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "BOOLEAN",
+      "access": "rw------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 24,
+      "name": "PCM Playback Switch",
+      "index": 1,
+      "iface": "MIXER",
+      "type": "BOOLEAN",
+      "access": "rw------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "off"
+    },
+    {
+      "numid": 28,
+      "name": "PCM Playback Switch",
+      "index": 2,
+      "iface": "MIXER",
+      "type": "BOOLEAN",
+      "access": "rw------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 21,
+      "name": "PCM Playback Volume",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "INTEGER",
+      "access": "rw---R--",
+      "count": 8,
+      "minimum": 0,
+      "maximum": 87,
+      "values": "78,78,78,78,78,78,78,78"
+    },
+    {
+      "numid": 25,
+      "name": "PCM Playback Volume",
+      "index": 1,
+      "iface": "MIXER",
+      "type": "INTEGER",
+      "access": "rw---R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 87,
+      "values": "87,87"
+    },
+    {
+      "numid": 13,
+      "name": "Line Capture Switch",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "BOOLEAN",
+      "access": "rw------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 14,
+      "name": "Line Capture Volume",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "INTEGER",
+      "access": "rw---R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 39,
+      "values": "39,39"
+    },
+    {
+      "numid": 17,
+      "name": "Mic Capture Switch",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "BOOLEAN",
+      "access": "rw------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "off"
+    },
+    {
+      "numid": 18,
+      "name": "Mic Capture Volume",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "INTEGER",
+      "access": "rw---R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 39,
+      "values": "23,23"
+    },
+    {
+      "numid": 9,
+      "name": "Analog In Capture Switch",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "BOOLEAN",
+      "access": "rw------",
+      "count": 1,
+      "minimum": null,
+      "maximum": null,
+      "values": "on"
+    },
+    {
+      "numid": 10,
+      "name": "Analog In Capture Volume",
+      "index": 0,
+      "iface": "MIXER",
+      "type": "INTEGER",
+      "access": "rw---R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 39,
+      "values": "23,23"
+    },
+    {
+      "numid": 1,
+      "name": "Capture Channel Map",
+      "index": 0,
+      "iface": "PCM",
+      "type": "INTEGER",
+      "access": "r--v-R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 36,
+      "values": "0,0"
+    },
+    {
+      "numid": 4,
+      "name": "Playback Channel Map",
+      "index": 0,
+      "iface": "PCM",
+      "type": "INTEGER",
+      "access": "r--v-R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 36,
+      "values": "0,0"
+    },
+    {
+      "numid": 2,
+      "name": "Capture Channel Map",
+      "index": 0,
+      "iface": "PCM",
+      "type": "INTEGER",
+      "access": "r--v-R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 36,
+      "values": "0,0"
+    },
+    {
+      "numid": 5,
+      "name": "Playback Channel Map",
+      "index": 0,
+      "iface": "PCM",
+      "type": "INTEGER",
+      "access": "r--v-R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 36,
+      "values": "0,0"
+    },
+    {
+      "numid": 3,
+      "name": "Capture Channel Map",
+      "index": 0,
+      "iface": "PCM",
+      "type": "INTEGER",
+      "access": "r--v-R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 36,
+      "values": "0,0"
+    },
+    {
+      "numid": 6,
+      "name": "Playback Channel Map",
+      "index": 0,
+      "iface": "PCM",
+      "type": "INTEGER",
+      "access": "r--v-R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 36,
+      "values": "0,0"
+    },
+    {
+      "numid": 7,
+      "name": "Playback Channel Map",
+      "index": 0,
+      "iface": "PCM",
+      "type": "INTEGER",
+      "access": "r--v-R--",
+      "count": 2,
+      "minimum": 0,
+      "maximum": 36,
+      "values": "0,0"
+    }
+  ],
+  "gain": "max",
+  "seconds": 8,
+  "trials": [
+    {
+      "name": "01-pcm0-original",
+      "pcm": "hw:Audio_1,0",
+      "device": 0,
+      "route": "original-state",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "01-pcm0-original.wav",
+      "raw": "01-pcm0-original.raw",
+      "mixer_log": "022-01-pcm0-original-mixer.txt",
+      "record_log": "023-01-pcm0-original-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": -73.83,
+              "peak_dbfs": -42.14,
+              "nonzero_samples": 219165,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -67.87,
+              "peak_dbfs": -42.14,
+              "nonzero_samples": 55745,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -91.38,
+              "peak_dbfs": -80.77,
+              "nonzero_samples": 163420,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": -73.7,
+              "peak_dbfs": -41.94,
+              "nonzero_samples": 218085,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -67.73,
+              "peak_dbfs": -41.94,
+              "nonzero_samples": 55169,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -91.37,
+              "peak_dbfs": -78.27,
+              "nonzero_samples": 162916,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": false
+      }
+    },
+    {
+      "name": "02-pcm1-original",
+      "pcm": "hw:Audio_1,1",
+      "device": 1,
+      "route": "original-state",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "02-pcm1-original.wav",
+      "raw": "02-pcm1-original.raw",
+      "mixer_log": "030-02-pcm1-original-mixer.txt",
+      "record_log": "031-02-pcm1-original-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": -81.16,
+              "peak_dbfs": -53.41,
+              "nonzero_samples": 245606,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -87.92,
+              "peak_dbfs": -64.73,
+              "nonzero_samples": 55498,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -80.14,
+              "peak_dbfs": -53.41,
+              "nonzero_samples": 190108,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": -80.84,
+              "peak_dbfs": -53.28,
+              "nonzero_samples": 244661,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -83.78,
+              "peak_dbfs": -58.71,
+              "nonzero_samples": 54601,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -80.18,
+              "peak_dbfs": -53.28,
+              "nonzero_samples": 190060,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": false
+      }
+    },
+    {
+      "name": "03-pcm2-original",
+      "pcm": "hw:Audio_1,2",
+      "device": 2,
+      "route": "original-state",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "03-pcm2-original.wav",
+      "raw": "03-pcm2-original.raw",
+      "mixer_log": "038-03-pcm2-original-mixer.txt",
+      "record_log": "039-03-pcm2-original-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": true
+      }
+    },
+    {
+      "name": "04-pcm0-switch13-max",
+      "pcm": "hw:Audio_1,0",
+      "device": 0,
+      "route": "Line Capture Switch index=0",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "04-pcm0-switch13-max.wav",
+      "raw": "04-pcm0-switch13-max.raw",
+      "mixer_log": "050-04-pcm0-switch13-max-mixer.txt",
+      "record_log": "051-04-pcm0-switch13-max-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": true
+      }
+    },
+    {
+      "name": "05-pcm1-switch13-max",
+      "pcm": "hw:Audio_1,1",
+      "device": 1,
+      "route": "Line Capture Switch index=0",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "05-pcm1-switch13-max.wav",
+      "raw": "05-pcm1-switch13-max.raw",
+      "mixer_log": "062-05-pcm1-switch13-max-mixer.txt",
+      "record_log": "063-05-pcm1-switch13-max-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": -84.21,
+              "peak_dbfs": -57.64,
+              "nonzero_samples": 239809,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -88.57,
+              "peak_dbfs": -65.2,
+              "nonzero_samples": 51072,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -83.38,
+              "peak_dbfs": -57.64,
+              "nonzero_samples": 188737,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": -83.66,
+              "peak_dbfs": -57.64,
+              "nonzero_samples": 239613,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -84.49,
+              "peak_dbfs": -59.43,
+              "nonzero_samples": 51256,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -83.41,
+              "peak_dbfs": -57.64,
+              "nonzero_samples": 188357,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": false
+      }
+    },
+    {
+      "name": "06-pcm2-switch13-max",
+      "pcm": "hw:Audio_1,2",
+      "device": 2,
+      "route": "Line Capture Switch index=0",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "06-pcm2-switch13-max.wav",
+      "raw": "06-pcm2-switch13-max.raw",
+      "mixer_log": "074-06-pcm2-switch13-max-mixer.txt",
+      "record_log": "075-06-pcm2-switch13-max-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": true
+      }
+    },
+    {
+      "name": "07-pcm0-switch17-max",
+      "pcm": "hw:Audio_1,0",
+      "device": 0,
+      "route": "Mic Capture Switch index=0",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "07-pcm0-switch17-max.wav",
+      "raw": "07-pcm0-switch17-max.raw",
+      "mixer_log": "086-07-pcm0-switch17-max-mixer.txt",
+      "record_log": "087-07-pcm0-switch17-max-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": true
+      }
+    },
+    {
+      "name": "08-pcm1-switch17-max",
+      "pcm": "hw:Audio_1,1",
+      "device": 1,
+      "route": "Mic Capture Switch index=0",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "08-pcm1-switch17-max.wav",
+      "raw": "08-pcm1-switch17-max.raw",
+      "mixer_log": "098-08-pcm1-switch17-max-mixer.txt",
+      "record_log": "099-08-pcm1-switch17-max-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": true
+      }
+    },
+    {
+      "name": "09-pcm2-switch17-max",
+      "pcm": "hw:Audio_1,2",
+      "device": 2,
+      "route": "Mic Capture Switch index=0",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "09-pcm2-switch17-max.wav",
+      "raw": "09-pcm2-switch17-max.raw",
+      "mixer_log": "110-09-pcm2-switch17-max-mixer.txt",
+      "record_log": "111-09-pcm2-switch17-max-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": -90.66,
+              "peak_dbfs": -64.29,
+              "nonzero_samples": 206185,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -88.22,
+              "peak_dbfs": -64.29,
+              "nonzero_samples": 51967,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -91.92,
+              "peak_dbfs": -80.77,
+              "nonzero_samples": 154218,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": -91.74,
+              "peak_dbfs": -72.25,
+              "nonzero_samples": 198400,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -91.14,
+              "peak_dbfs": -72.25,
+              "nonzero_samples": 50112,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -91.96,
+              "peak_dbfs": -76.33,
+              "nonzero_samples": 148288,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": false
+      }
+    },
+    {
+      "name": "10-pcm0-switch9-max",
+      "pcm": "hw:Audio_1,0",
+      "device": 0,
+      "route": "Analog In Capture Switch index=0",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "10-pcm0-switch9-max.wav",
+      "raw": "10-pcm0-switch9-max.raw",
+      "mixer_log": "122-10-pcm0-switch9-max-mixer.txt",
+      "record_log": "123-10-pcm0-switch9-max-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": -65.82,
+              "peak_dbfs": -34.17,
+              "nonzero_samples": 329962,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -59.89,
+              "peak_dbfs": -34.17,
+              "nonzero_samples": 82688,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -81.3,
+              "peak_dbfs": -68.03,
+              "nonzero_samples": 247274,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": -69.95,
+              "peak_dbfs": -38.47,
+              "nonzero_samples": 328558,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": -64.17,
+              "peak_dbfs": -38.47,
+              "nonzero_samples": 82416,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": -81.51,
+              "peak_dbfs": -68.03,
+              "nonzero_samples": 246142,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": false
+      }
+    },
+    {
+      "name": "11-pcm1-switch9-max",
+      "pcm": "hw:Audio_1,1",
+      "device": 1,
+      "route": "Analog In Capture Switch index=0",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "11-pcm1-switch9-max.wav",
+      "raw": "11-pcm1-switch9-max.raw",
+      "mixer_log": "134-11-pcm1-switch9-max-mixer.txt",
+      "record_log": "135-11-pcm1-switch9-max-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": true
+      }
+    },
+    {
+      "name": "12-pcm2-switch9-max",
+      "pcm": "hw:Audio_1,2",
+      "device": 2,
+      "route": "Analog In Capture Switch index=0",
+      "status": "ok",
+      "setting": {
+        "format": "S16_LE",
+        "channels": 2,
+        "rate": 48000
+      },
+      "wav": "12-pcm2-switch9-max.wav",
+      "raw": "12-pcm2-switch9-max.raw",
+      "mixer_log": "146-12-pcm2-switch9-max-mixer.txt",
+      "record_log": "147-12-pcm2-switch9-max-arecord.txt",
+      "analysis": {
+        "frames": 384000,
+        "duration_seconds": 8.0,
+        "rate": 48000,
+        "channels": [
+          {
+            "channel": 1,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          },
+          {
+            "channel": 2,
+            "overall": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "initial_silence": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            },
+            "speech_window": {
+              "rms_dbfs": null,
+              "peak_dbfs": null,
+              "nonzero_samples": 0,
+              "clipped_samples": 0
+            }
+          }
+        ],
+        "sample_width": 2,
+        "digital_silence": true
+      }
+    }
+  ],
+  "planned_trials": 12,
+  "cleanup_errors": [],
+  "dry_run": false,
+  "settings": {
+    "0": {
+      "format": "S16_LE",
+      "channels": 2,
+      "rate": 48000
+    },
+    "1": {
+      "format": "S16_LE",
+      "channels": 2,
+      "rate": 48000
+    },
+    "2": {
+      "format": "S16_LE",
+      "channels": 2,
+      "rate": 48000
+    }
+  },
+  "decision": {
+    "next_step": "finish_direct_capture_tests_and_review",
+    "reason": "Enumeration or signal level alone does not identify microphone speech. Resolve failed/skipped captures and listen to the recordings before choosing a patch."
+  },
+  "finished": "2026-10-03T19:45:11.660202+00:00"
+}

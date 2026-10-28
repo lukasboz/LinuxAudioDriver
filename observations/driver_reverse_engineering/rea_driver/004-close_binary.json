@@ -1,0 +1,17 @@
+{
+  "request": {
+    "name": "close_binary",
+    "arguments": {}
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"result\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": null
+    }
+  }
+}

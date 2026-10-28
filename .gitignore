@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+diagnostics/
+audio-diagnostics.zip
+observations/driver_reverse_engineering/package/
+observations/driver_reverse_engineering/rea*/tool-schemas.json
+observations/driver_reverse_engineering/ghidra_project/

@@ -1,0 +1,132 @@
+{
+  "address": "0x1400256a0",
+  "name": "FUN_1400256a0",
+  "signature": "undefined __fastcall FUN_1400256a0(longlong param_1, int param_2)",
+  "callees": [
+    {
+      "address": "0x140020e64",
+      "name": "FUN_140020e64",
+      "signature": "undefined __fastcall FUN_140020e64(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x1400303ec",
+      "name": "FUN_1400303ec",
+      "signature": "undefined __fastcall FUN_1400303ec(longlong param_1, int param_2, uint param_3, uint param_4, uint param_5)"
+    },
+    {
+      "address": "0x140032d7c",
+      "name": "FUN_140032d7c",
+      "signature": "undefined __fastcall FUN_140032d7c(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4, undefined8 param_5, wchar_t * param_6)"
+    },
+    {
+      "address": "0x14005627c",
+      "name": "FUN_14005627c",
+      "signature": "wchar_t * __fastcall FUN_14005627c(undefined8 param_1, uint param_2)"
+    },
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x14003ccf0",
+      "name": "FUN_14003ccf0",
+      "signature": "longlong __fastcall FUN_14003ccf0(longlong param_1)"
+    },
+    {
+      "address": "0x140029ec8",
+      "name": "FUN_140029ec8",
+      "signature": "int __fastcall FUN_140029ec8(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x140057e50",
+      "name": "__security_check_cookie",
+      "signature": "void __cdecl __security_check_cookie(uintptr_t _StackCookie)"
+    },
+    {
+      "address": "0x14004cbac",
+      "name": "FUN_14004cbac",
+      "signature": "undefined __fastcall FUN_14004cbac(int param_1)"
+    },
+    {
+      "address": "0x14002f25c",
+      "name": "FUN_14002f25c",
+      "signature": "undefined4 __fastcall FUN_14002f25c(char * param_1, ulonglong param_2, wchar_t * param_3, undefined8 param_4)"
+    },
+    {
+      "address": "0x140055b90",
+      "name": "FUN_140055b90",
+      "signature": "undefined __fastcall FUN_140055b90(int * param_1)"
+    },
+    {
+      "address": "0x140031bac",
+      "name": "FUN_140031bac",
+      "signature": "bool __fastcall FUN_140031bac(longlong * param_1, longlong param_2, undefined8 param_3, undefined4 param_4, undefined4 param_5, undefined8 param_6, longlong param_7)"
+    },
+    {
+      "address": "0x140032c84",
+      "name": "FUN_140032c84",
+      "signature": "undefined __fastcall FUN_140032c84(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4, undefined8 param_5, wchar_t * param_6)"
+    },
+    {
+      "address": "0x140032f70",
+      "name": "FUN_140032f70",
+      "signature": "undefined __fastcall FUN_140032f70(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4)"
+    },
+    {
+      "address": "0x14002821c",
+      "name": "FUN_14002821c",
+      "signature": "longlong __fastcall FUN_14002821c(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x1400331a8",
+      "name": "FUN_1400331a8",
+      "signature": "undefined __fastcall FUN_1400331a8(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4)"
+    },
+    {
+      "address": "0x140028248",
+      "name": "FUN_140028248",
+      "signature": "undefined __fastcall FUN_140028248(longlong param_1, int param_2, uint param_3, undefined4 * param_4)"
+    },
+    {
+      "address": "0x140033080",
+      "name": "FUN_140033080",
+      "signature": "undefined __fastcall FUN_140033080(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4)"
+    },
+    {
+      "address": "0x140032b00",
+      "name": "FUN_140032b00",
+      "signature": "undefined __fastcall FUN_140032b00(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4)"
+    },
+    {
+      "address": "0x140059b50",
+      "name": "_guard_dispatch_icall",
+      "signature": "undefined __fastcall _guard_dispatch_icall(void)"
+    },
+    {
+      "address": "0x14002db9c",
+      "name": "FUN_14002db9c",
+      "signature": "ulonglong __fastcall FUN_14002db9c(longlong * param_1, longlong param_2, undefined8 param_3, uint * param_4, undefined8 * param_5, longlong param_6, undefined4 param_7)"
+    },
+    {
+      "address": "0x140056a0c",
+      "name": "FUN_140056a0c",
+      "signature": "int __fastcall FUN_140056a0c(int * param_1, int param_2, uint param_3, byte param_4)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140029c00",
+      "name": "FUN_140029c00",
+      "signature": "undefined __fastcall FUN_140029c00(longlong param_1)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\r\n\r\nvoid FUN_1400256a0(longlong param_1,int param_2)\r\n\r\n{\r\n  ushort *puVar1;\r\n  int iVar2;\r\n  longlong *plVar3;\r\n  int *piVar4;\r\n  bool bVar5;\r\n  bool bVar6;\r\n  ushort uVar7;\r\n  uint uVar8;\r\n  int iVar9;\r\n  ulonglong uVar11;\r\n  wchar_t *pwVar12;\r\n  longlong lVar13;\r\n  ushort uVar14;\r\n  short sVar15;\r\n  short sVar16;\r\n  int *piVar17;\r\n  longlong lVar18;\r\n  undefined1 auStackY_1a8 [32];\r\n  uint *puVar19;\r\n  undefined8 uVar20;\r\n  int local_144;\r\n  uint local_140;\r\n  uint local_13c;\r\n  char local_138 [256];\r\n  ulonglong local_38;\r\n  int *piVar10;\r\n  undefined4 uVar21;\r\n  \r\n  local_38 \u003d DAT_1400698c0 ^ (ulonglong)auStackY_1a8;\r\n  if ((*(int *)(param_1 + 0x26e0) - 1U \u0026 0xfffffffd) !\u003d 0) {\r\n    return;\r\n  }\r\n  local_144 \u003d param_2;\r\n  if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n     ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 8) !\u003d 0)) {\r\n    FUN_140032b00(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x27,\u0026DAT_1400602c8,\r\n                  \"CCommon::CheckJDStatus\");\r\n  }\r\n  piVar17 \u003d (int *)0x0;\r\n  bVar6 \u003d false;\r\n  if ((*(int *)(param_1 + 0xbf8) !\u003d 0) \u0026\u0026 (*(uint *)(param_1 + 0xfd8) !\u003d 0)) {\r\n    plVar3 \u003d *(longlong **)(param_1 + 0xfe0);\r\n    piVar10 \u003d piVar17;\r\n    do {\r\n      if (*(int *)(plVar3[(longlong)piVar10] + 0x10) \u003d\u003d 0x37) {\r\n        lVar13 \u003d *plVar3;\r\n        *plVar3 \u003d plVar3[(longlong)piVar10];\r\n        *(longlong *)(*(longlong *)(param_1 + 0xfe0) + (longlong)piVar10 * 8) \u003d lVar13;\r\n        break;\r\n      }\r\n      uVar8 \u003d (int)piVar10 + 1;\r\n      piVar10 \u003d (int *)(ulonglong)uVar8;\r\n    } while (uVar8 \u003c *(uint *)(param_1 + 0xfd8));\r\n  }\r\n  piVar10 \u003d piVar17;\r\n  bVar5 \u003d false;\r\n  if (*(int *)(param_1 + 0xfd8) !\u003d 0) {\r\n    do {\r\n      bVar6 \u003d bVar5;\r\n      if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n         ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n        FUN_140032b00(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x28,\u0026DAT_1400602c8,\r\n                      \"CCommon::CheckJDStatus\");\r\n      }\r\n      piVar4 \u003d *(int **)(*(longlong *)(param_1 + 0xfe0) + (longlong)piVar17 * 8);\r\n      if ((piVar4 !\u003d (int *)0x0) \u0026\u0026 (piVar4 !\u003d *(int **)(param_1 + 0xe18))) {\r\n        local_140 \u003d 0;\r\n        local_13c \u003d 4;\r\n        FUN_14002f25c(local_138,0x100,L\"widget_%d\",piVar17);\r\n        puVar19 \u003d \u0026local_140;\r\n        uVar11 \u003d FUN_14002db9c((longlong *)(param_1 + 0x2348),0x14005b7c0,local_138,\u0026local_13c,\r\n                               (undefined8 *)puVar19,0,1);\r\n        uVar21 \u003d (undefined4)((ulonglong)puVar19 \u003e\u003e 0x20);\r\n        if ((int)uVar11 \u003c 0) {\r\n          if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n             ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n            pwVar12 \u003d FUN_14005627c(piVar4,piVar4[4]);\r\n            uVar20 \u003d CONCAT44(uVar21,0x1c4b);\r\n            FUN_140032c84(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x2a,\u0026DAT_1400602c8,\r\n                          \"CCommon::CheckJDStatus\",uVar20,pwVar12);\r\n            uVar21 \u003d (undefined4)((ulonglong)uVar20 \u003e\u003e 0x20);\r\n          }\r\n        }\r\n        else {\r\n          *(ushort *)(piVar4 + 0x13) \u003d\r\n               ((short)local_140 * 2 ^ *(ushort *)(piVar4 + 0x13)) \u0026 2 ^ *(ushort *)(piVar4 + 0x13);\r\n          if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n             ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n            pwVar12 \u003d FUN_14005627c(piVar4,piVar4[4]);\r\n            uVar20 \u003d CONCAT44(uVar21,0x1c47);\r\n            FUN_140032d7c(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x29,\u0026DAT_1400602c8,\r\n                          \"CCommon::CheckJDStatus\",uVar20,pwVar12);\r\n            uVar21 \u003d (undefined4)((ulonglong)uVar20 \u003e\u003e 0x20);\r\n          }\r\n        }\r\n        FUN_140055b90(piVar4);\r\n        local_140 \u003d *(ushort *)(piVar4 + 0x13) \u003e\u003e 1 \u0026 1;\r\n        if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n           ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n          pwVar12 \u003d FUN_14005627c(piVar4,piVar4[4]);\r\n          FUN_140032d7c(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x2b,\u0026DAT_1400602c8,\r\n                        \"CCommon::CheckJDStatus\",CONCAT44(uVar21,0x1c54),pwVar12);\r\n        }\r\n        FUN_140031bac((longlong *)(param_1 + 0x2348),0x14005b7c0,local_138,4,4,\u0026local_140,0);\r\n        if ((((*(uint *)(param_1 + 0x2384) \u0026 0x40000) !\u003d 0) \u0026\u0026\r\n            ((*(uint *)(param_1 + 0x2394) \u0026 0x100) \u003d\u003d 0)) \u0026\u0026 (piVar4[4] \u003d\u003d 0x37)) {\r\n          FUN_14003ccf0(*(longlong *)(piVar4 + 6));\r\n        }\r\n        if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n           ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n          FUN_14005627c(piVar4,piVar4[4]);\r\n          FUN_1400331a8(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x2d,\u0026DAT_1400602c8,\r\n                        \"CCommon::CheckJDStatus\");\r\n        }\r\n        iVar9 \u003d local_144;\r\n        uVar7 \u003d *(ushort *)(piVar4 + 0x13);\r\n        if (((((byte)uVar7 \u003e\u003e 1 ^ (byte)uVar7) \u0026 2) !\u003d 0) \u0026\u0026 (*(longlong *)(piVar4 + 6) !\u003d 0)) {\r\n          if ((*(longlong *)(param_1 + 0xb28) !\u003d 0) \u0026\u0026 (local_144 \u003d\u003d 0)) {\r\n            if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n               ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n              FUN_14005627c(piVar4,piVar4[4]);\r\n              FUN_140033080(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x2e,\u0026DAT_1400602c8,\r\n                            \"CCommon::CheckJDStatus\");\r\n              uVar7 \u003d *(ushort *)(piVar4 + 0x13);\r\n            }\r\n            iVar2 \u003d *(int *)(param_1 + 0x26b4);\r\n            if (iVar2 \u003d\u003d 0x7d) {\r\n              if ((*(int *)(*(longlong *)(piVar4 + 6) + 0x2c8) !\u003d 1) || ((uVar7 \u0026 2) \u003d\u003d 0))\r\n              goto LAB_140025c9b;\r\n              bVar6 \u003d true;\r\n              piVar10 \u003d piVar4;\r\n            }\r\n            else {\r\n              if (iVar2 \u003d\u003d 0x8d) {\r\n                if (piVar4[4] \u003d\u003d 0x1f) {\r\n                  if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n                     ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n                    FUN_14005627c(piVar4,0x1f);\r\n                    FUN_140032f70(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x2f,\u0026DAT_1400602c8,\r\n                                  \"CCommon::CheckJDStatus\");\r\n                  }\r\n                  FUN_140020e64(*(longlong *)(param_1 + 0xb28),piVar4[3]);\r\n                  if (((*(byte *)(piVar4 + 0x13) \u0026 2) \u003d\u003d 0) \u0026\u0026\r\n                     (lVar13 \u003d FUN_14002821c(param_1,0x21), lVar13 !\u003d 0)) {\r\n                    FUN_14003ccf0(*(longlong *)(lVar13 + 0x18));\r\n                  }\r\n                  goto LAB_140025dac;\r\n                }\r\nLAB_140025c9b:\r\n                if (*(short *)(param_1 + 0x26a8) \u003d\u003d 0x1b9b) goto LAB_140025caa;\r\n              }\r\n              else {\r\n                if (iVar2 !\u003d 0x85) goto LAB_140025c9b;\r\nLAB_140025caa:\r\n                if (piVar4[4] - 0x3aU \u003c 2) {\r\n                  if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n                     ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n                    FUN_14005627c(piVar4,piVar4[4]);\r\n                    FUN_140032f70(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x30,\u0026DAT_1400602c8,\r\n                                  \"CCommon::CheckJDStatus\");\r\n                  }\r\n                  goto LAB_140025dac;\r\n                }\r\n              }\r\n              if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n                 ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n                FUN_14005627c(piVar4,piVar4[4]);\r\n                FUN_140032f70(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x31,\u0026DAT_1400602c8,\r\n                              \"CCommon::CheckJDStatus\");\r\n              }\r\n              FUN_140020e64(*(longlong *)(param_1 + 0xb28),piVar4[3]);\r\n            }\r\n          }\r\nLAB_140025dac:\r\n          uVar7 \u003d *(ushort *)(piVar4 + 0x13);\r\n          uVar8 \u003d *(uint *)(param_1 + 0x2380);\r\n          if ((((byte)uVar7 \u0026 10) \u003d\u003d 10) \u0026\u0026 ((uVar8 \u0026 0x400) \u003d\u003d 0)) {\r\n            if (*(int *)(param_1 + 0xb0c) \u003d\u003d 0) {\r\nLAB_140026002:\r\n              FUN_14005470c((longlong)piVar4,piVar4[8]);\r\n            }\r\n            else {\r\n              piVar4[2] \u003d 1;\r\n            }\r\n          }\r\n          else {\r\n            if (((uVar8 \u0026 0x4020000) !\u003d 0) \u0026\u0026 (((uVar7 \u0026 2) !\u003d 0 \u0026\u0026 ((uVar8 \u0026 0x400) !\u003d 0))))\r\n            goto LAB_140026002;\r\n            if ((uVar7 \u0026 1) !\u003d 0) {\r\n              if (((*(int *)(param_1 + 0x26b4) !\u003d 0x7d) ||\r\n                  (*(int *)(*(longlong *)(piVar4 + 6) + 0x2c8) !\u003d 1)) || ((uVar7 \u0026 2) \u003d\u003d 0)) {\r\n                FUN_14003ccf0(*(longlong *)(piVar4 + 6));\r\n                uVar8 \u003d *(uint *)(param_1 + 0x2380);\r\n              }\r\n              if ((uVar8 \u0026 0x400) !\u003d 0) {\r\n                uVar7 \u003d *(ushort *)(piVar4 + 0x13);\r\n                *(ushort *)(piVar4 + 0x13) \u003d (uVar7 * 2 ^ uVar7) \u0026 4 ^ uVar7;\r\n              }\r\n            }\r\n          }\r\n          if (((iVar9 \u003d\u003d 0) \u0026\u0026 ((*(byte *)(piVar4 + 0x13) \u0026 2) !\u003d 0)) \u0026\u0026\r\n             ((piVar4[4] \u003d\u003d 0x1a \u0026\u0026 (((byte)*(undefined4 *)(param_1 + 0x2380) \u0026 6) \u003d\u003d 6)))) {\r\n            FUN_140056a0c(piVar4,0,1,0);\r\n          }\r\n          if (((*(short *)(param_1 + 0x26a8) \u003d\u003d 0x4008) \u0026\u0026 ((*(byte *)(piVar4 + 0x13) \u0026 2) !\u003d 0)) \u0026\u0026\r\n             (piVar4[4] \u003d\u003d 0x21)) {\r\n            FUN_1400303ec(param_1,0x20,8,0xd,0xfffffff2);\r\n          }\r\n        }\r\n      }\r\n      uVar8 \u003d (int)piVar17 + 1;\r\n      piVar17 \u003d (int *)(ulonglong)uVar8;\r\n      bVar5 \u003d bVar6;\r\n    } while (uVar8 \u003c *(uint *)(param_1 + 0xfd8));\r\n  }\r\n  sVar16 \u003d 0;\r\n  bVar5 \u003d false;\r\n  if ((*(longlong *)(param_1 + 0xe18) !\u003d 0) \u0026\u0026 (*(longlong *)(param_1 + 0xe10) !\u003d 0)) {\r\n    uVar7 \u003d *(ushort *)(*(longlong *)(param_1 + 0xe10) + 0x4c);\r\n    uVar14 \u003d uVar7 \u003e\u003e 1 \u0026 1;\r\n    if (((uVar7 \u003e\u003e 2 \u0026 1) !\u003d uVar14) || ((*(uint *)(param_1 + 0x2380) \u003e\u003e 0x11 \u0026 1) !\u003d 0)) {\r\n      if (((uVar7 \u0026 8) \u003d\u003d 0) || (uVar8 \u003d *(uint *)(param_1 + 0x24c0), (uVar8 \u003e\u003e 0x14 \u0026 1) !\u003d 0)) {\r\n        sVar15 \u003d 0;\r\n        if ((uVar7 \u0026 2) !\u003d 0) {\r\n          local_144 \u003d 0;\r\n          if (*(short *)(param_1 + 0xe68) \u003d\u003d 0x288) {\r\n            FUN_140028248(param_1,0x20,0x50,\u0026local_144);\r\n            if (((byte)local_144 \u0026 0x70) \u003d\u003d 0x70) {\r\n              sVar16 \u003d 1;\r\n            }\r\n          }\r\n          sVar15 \u003d sVar16;\r\n          if ((((((*(uint *)(param_1 + 0x2380) \u0026 0x4020000) !\u003d 0) ||\r\n                ((*(uint *)(param_1 + 0x24c0) \u003e\u003e 0x14 \u0026 1) !\u003d 0)) \u0026\u0026\r\n               (uVar7 \u003d *(short *)(param_1 + 0xe68) + 0xbfce, uVar7 \u003c 0x1f)) \u0026\u0026\r\n              (((0x40014001U \u003e\u003e (uVar7 \u0026 0x1f) \u0026 1) !\u003d 0 \u0026\u0026 (*(longlong *)(param_1 + 0xb20) !\u003d 0))))\r\n             \u0026\u0026 ((iVar9 \u003d (*(code *)PTR__guard_dispatch_icall_14005f458)\r\n                                    (*(longlong *)(param_1 + 0xb20),*(undefined8 *)(param_1 + 0xe18)\r\n                                     ,\u0026local_13c), -1 \u003c iVar9 \u0026\u0026\r\n                 ((local_13c \u003d\u003d 1 || (sVar15 \u003d 0, local_13c \u003d\u003d 2)))))) {\r\n            sVar15 \u003d 1;\r\n          }\r\n        }\r\n        uVar7 \u003d *(ushort *)(*(longlong *)(param_1 + 0xe18) + 0x4c);\r\n        *(ushort *)(*(longlong *)(param_1 + 0xe18) + 0x4c) \u003d (uVar7 * 2 ^ uVar7) \u0026 4 ^ uVar7;\r\n        *(ushort *)(*(longlong *)(param_1 + 0xe18) + 0x4c) \u003d\r\n             sVar15 * 2 | *(ushort *)(*(longlong *)(param_1 + 0xe18) + 0x4c) \u0026 0xfffd;\r\n        lVar13 \u003d *(longlong *)(*(longlong *)(param_1 + 0xe18) + 0x18);\r\n        if (lVar13 !\u003d 0) {\r\n          FUN_14003ccf0(lVar13);\r\n        }\r\n        if (((*(uint *)(param_1 + 0x2380) \u0026 0x80000) !\u003d 0) \u0026\u0026\r\n           (lVar13 \u003d *(longlong *)(*(longlong *)(param_1 + 0xe10) + 0x18), lVar13 !\u003d 0)) {\r\n          FUN_14003ccf0(lVar13);\r\n        }\r\n      }\r\n      else {\r\n        if (((uVar14 \u003d\u003d 0) \u0026\u0026 ((*(uint *)(param_1 + 0x2380) \u0026 0x4020000) \u003d\u003d 0)) \u0026\u0026\r\n           (*(int *)(param_1 + 0x2170) !\u003d 0)) {\r\n          bVar5 \u003d true;\r\n        }\r\n        if (((char)*(undefined4 *)(param_1 + 0x2378) \u003c \u0027\\0\u0027) \u0026\u0026 ((uVar7 \u0026 2) \u003d\u003d 0)) {\r\n          bVar5 \u003d true;\r\n          if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n             (bVar5 \u003d true, (*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n            FUN_140032b00(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x32,\u0026DAT_1400602c8,\r\n                          \"CCommon::CheckJDStatus\");\r\n            uVar8 \u003d *(uint *)(param_1 + 0x24c0);\r\n            bVar5 \u003d true;\r\n          }\r\n        }\r\n        if ((((uVar8 \u003e\u003e 0x14 \u0026 1) \u003d\u003d 0) || (*(longlong *)(param_1 + 0xe10) \u003d\u003d 0)) ||\r\n           ((*(byte *)(*(longlong *)(param_1 + 0xe10) + 0x4c) \u0026 2) !\u003d 0)) {\r\n          if (!bVar5) goto LAB_1400261a5;\r\n        }\r\n        else if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n                ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n          FUN_140032b00(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x33,\u0026DAT_1400602c8,\r\n                        \"CCommon::CheckJDStatus\");\r\n        }\r\n        lVar13 \u003d *(longlong *)(param_1 + 0xe18);\r\n        if (lVar13 !\u003d 0) {\r\n          uVar7 \u003d *(ushort *)(lVar13 + 0x4c);\r\n          *(ushort *)(lVar13 + 0x4c) \u003d (uVar7 * 2 ^ uVar7) \u0026 4 ^ uVar7;\r\n          puVar1 \u003d (ushort *)(*(longlong *)(param_1 + 0xe18) + 0x4c);\r\n          *puVar1 \u003d *puVar1 ^ (*(ushort *)(*(longlong *)(param_1 + 0xe10) + 0x4c) ^\r\n                              *(ushort *)(*(longlong *)(param_1 + 0xe18) + 0x4c)) \u0026 2;\r\n          lVar13 \u003d *(longlong *)(param_1 + 0xe18);\r\n          if (*(longlong *)(lVar13 + 0x18) !\u003d 0) {\r\n            lVar18 \u003d *(longlong *)(param_1 + 0xb28);\r\n            if (lVar18 !\u003d 0) {\r\n              if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n                 ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n                FUN_14005627c(lVar13,*(uint *)(lVar13 + 0x10));\r\n                FUN_140032f70(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x34,\u0026DAT_1400602c8,\r\n                              \"CCommon::CheckJDStatus\");\r\n                lVar13 \u003d *(longlong *)(param_1 + 0xe18);\r\n                lVar18 \u003d *(longlong *)(param_1 + 0xb28);\r\n              }\r\n              FUN_140020e64(lVar18,*(uint *)(lVar13 + 0xc));\r\n              lVar13 \u003d *(longlong *)(param_1 + 0xe18);\r\n            }\r\n            FUN_14003ccf0(*(longlong *)(lVar13 + 0x18));\r\n          }\r\n        }\r\n      }\r\n    }\r\n  }\r\nLAB_1400261a5:\r\n  if ((*(uint *)(param_1 + 0x2374) \u0026 0x10) !\u003d 0) {\r\n    FUN_1400303ec(param_1,0x20,0x33,1,0xfffffffe);\r\n  }\r\n  if ((*(uint *)(param_1 + 0x2380) \u0026 0x40000000) !\u003d 0) {\r\n    FUN_140029ec8(param_1,0);\r\n  }\r\n  if ((*(uint *)(param_1 + 0x2384) \u0026 0x10000) !\u003d 0) {\r\n    FUN_140029ec8(param_1,0);\r\n  }\r\n  if ((bVar6) \u0026\u0026 (piVar10 !\u003d (int *)0x0)) {\r\n    FUN_14004cbac(4000);\r\n    if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n       ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n      FUN_14005627c(piVar10,piVar10[4]);\r\n      FUN_140032f70(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x35,\u0026DAT_1400602c8,\r\n                    \"CCommon::CheckJDStatus\");\r\n    }\r\n    FUN_140020e64(*(longlong *)(param_1 + 0xb28),piVar10[3]);\r\n    FUN_14003ccf0(*(longlong *)(piVar10 + 6));\r\n  }\r\n  *(undefined4 *)(param_1 + 0x54) \u003d 0;\r\n  return;\r\n}\r\n\r\n"
+}

@@ -1,0 +1,47 @@
+{
+  "address": "0x140031ce8",
+  "name": "FUN_140031ce8",
+  "signature": "undefined4 __fastcall FUN_140031ce8(longlong param_1, undefined2 param_2, undefined8 param_3, byte param_4, byte param_5)",
+  "callees": [
+    {
+      "address": "0x14002ddb0",
+      "name": "FUN_14002ddb0",
+      "signature": "int __fastcall FUN_14002ddb0(longlong param_1, undefined2 param_2, undefined8 param_3, undefined1 * param_4)"
+    },
+    {
+      "address": "0xEXTERNAL:0000006d",
+      "name": "KeWaitForSingleObject",
+      "signature": "undefined KeWaitForSingleObject(void)"
+    },
+    {
+      "address": "0x14003190c",
+      "name": "FUN_14003190c",
+      "signature": "undefined __fastcall FUN_14003190c(longlong param_1, undefined2 param_2, undefined1 param_3, undefined1 param_4, undefined2 param_5, undefined2 param_6, undefined8 param_7, undefined4 param_8, char param_9)"
+    },
+    {
+      "address": "0xEXTERNAL:0000006e",
+      "name": "KeReleaseMutex",
+      "signature": "undefined KeReleaseMutex(void)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x14001e1e0",
+      "name": "FUN_14001e1e0",
+      "signature": "undefined8 __fastcall FUN_14001e1e0(longlong param_1, short * param_2, longlong param_3, uint param_4)"
+    },
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140030838",
+      "name": "FUN_140030838",
+      "signature": "undefined __fastcall FUN_140030838(longlong param_1, longlong param_2, undefined8 param_3, int param_4, int param_5)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nundefined4\r\nFUN_140031ce8(longlong param_1,undefined2 param_2,undefined8 param_3,byte param_4,byte param_5)\r\n\r\n{\r\n  byte bVar1;\r\n  undefined4 uVar2;\r\n  byte local_res20 [8];\r\n  undefined1 uStack0000000000000029;\r\n  byte bStack000000000000002a;\r\n  \r\n  bVar1 \u003d param_5;\r\n  local_res20[0] \u003d 0;\r\n  if (param_5 !\u003d 0) {\r\n    FUN_14002ddb0(param_1,param_2,param_3,local_res20);\r\n    param_4 \u003d param_4 | local_res20[0] \u0026 bVar1;\r\n  }\r\n  uStack0000000000000029 \u003d (undefined1)param_3;\r\n  param_5 \u003d (byte)((ulonglong)param_3 \u003e\u003e 8);\r\n  bStack000000000000002a \u003d param_4;\r\n  KeWaitForSingleObject(param_1 + 0xb30,0,0,0,0);\r\n  uVar2 \u003d FUN_14003190c(param_1,0x17,0x40,0x3e,param_2,0x100,\u0026param_5,3,\u0027\\0\u0027);\r\n  KeReleaseMutex(param_1 + 0xb30,0);\r\n  return uVar2;\r\n}\r\n\r\n"
+}

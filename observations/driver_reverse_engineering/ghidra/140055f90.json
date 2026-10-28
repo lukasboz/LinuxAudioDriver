@@ -1,0 +1,21 @@
+{
+  "address": "0x140055f90",
+  "name": "FUN_140055f90",
+  "signature": "undefined __fastcall FUN_140055f90(undefined8 param_1, uint * param_2, uint param_3)",
+  "callees": [],
+  "callers": [
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x140053be0",
+      "name": "FUN_140053be0",
+      "signature": "undefined4 * __fastcall FUN_140053be0(undefined4 * param_1, longlong param_2, uint * param_3, int param_4)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_140055f90(undefined8 param_1,uint *param_2,uint param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  if (param_3 \u003c 0x21) {\r\n    if (param_3 !\u003d 0x20) {\r\n      if (param_3 \u003c 6) {\r\n        if (param_3 \u003d\u003d 5) {\r\nLAB_140056039:\r\n          *param_2 \u003d param_3 - 4 \u0026 0xf | *param_2 \u0026 0xff1ffff0 | 0x100000;\r\n          return;\r\n        }\r\n        if (param_3 \u003d\u003d 0) {\r\n          uVar1 \u003d *param_2 \u0026 0xff8ffff0 | 0x800000;\r\n          goto LAB_1400560e9;\r\n        }\r\n        if (param_3 !\u003d 1) {\r\n          if (param_3 \u003d\u003d 2) {\r\n            uVar1 \u003d *param_2 \u0026 0xff2ffff0 | 0x200000;\r\n          }\r\n          else {\r\n            if ((param_3 !\u003d 3) \u0026\u0026 (param_3 !\u003d 4)) {\r\n              return;\r\n            }\r\n            uVar1 \u003d *param_2 \u0026 0xff1ffff0 | 0x100000;\r\n          }\r\n          goto LAB_1400560e9;\r\n        }\r\n      }\r\n      else {\r\n        if ((param_3 \u003d\u003d 6) || (param_3 \u003d\u003d 7)) goto LAB_140056039;\r\n        if (param_3 \u003d\u003d 8) {\r\n          uVar1 \u003d *param_2 \u0026 0xff4ffff0 | 0x400000;\r\n          goto LAB_1400560e9;\r\n        }\r\n        if (param_3 !\u003d 0xf) {\r\n          return;\r\n        }\r\n      }\r\n      uVar1 \u003d *param_2 \u0026 0xffaffff0 | 0xa00000;\r\n      goto LAB_1400560e9;\r\n    }\r\n  }\r\n  else if (param_3 !\u003d 0x22) {\r\n    if (param_3 !\u003d 0x23) {\r\n      if (param_3 \u003d\u003d 0x24) {\r\n        uVar1 \u003d *param_2 \u0026 0xffdffff1 | 0xd00001;\r\n        goto LAB_1400560e9;\r\n      }\r\n      if (param_3 \u003d\u003d 0x32) goto LAB_1400560dd;\r\n      if (param_3 !\u003d 0x33) {\r\n        if (param_3 \u003d\u003d 0x103) {\r\n          uVar1 \u003d *param_2 \u0026 0xff2ffffd | 0x20000d;\r\n        }\r\n        else if (param_3 \u003d\u003d 0x104) {\r\n          uVar1 \u003d *param_2 \u0026 0xff0ffffd | 0xd;\r\n        }\r\n        else if (param_3 \u003d\u003d 0x105) {\r\n          uVar1 \u003d *param_2 \u0026 0xff2ffffe | 0x20000e;\r\n        }\r\n        else {\r\n          if (param_3 !\u003d 0x106) {\r\n            return;\r\n          }\r\n          uVar1 \u003d *param_2 \u0026 0xff0ffff2 | 2;\r\n        }\r\n        goto LAB_1400560e9;\r\n      }\r\n    }\r\n    uVar1 \u003d *param_2 \u0026 0xff2ffffb | 0x20000b;\r\n    goto LAB_1400560e9;\r\n  }\r\nLAB_1400560dd:\r\n  uVar1 \u003d *param_2 \u0026 0xff2ffffa | 0x20000a;\r\nLAB_1400560e9:\r\n  *param_2 \u003d uVar1;\r\n  return;\r\n}\r\n\r\n"
+}

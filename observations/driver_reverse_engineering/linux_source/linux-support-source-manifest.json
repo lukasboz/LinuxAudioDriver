@@ -1,0 +1,92 @@
+﻿{
+    "linux_commit":  "24a19b953e2a3d0ea5a8c4951a0ab8f32720c907",
+    "entries":  [
+                    {
+                        "url":  "https://raw.githubusercontent.com/torvalds/linux/24a19b953e2a3d0ea5a8c4951a0ab8f32720c907/sound/usb/mixer.c",
+                        "file":  "sound_usb_mixer.c",
+                        "sha256":  "4ec40756b8a36f6f1c294796b803f40ee738f90ac67c0b99e8c8f7b17477ad88"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/torvalds/linux/24a19b953e2a3d0ea5a8c4951a0ab8f32720c907/sound/usb/mixer.h",
+                        "file":  "sound_usb_mixer.h",
+                        "sha256":  "dfbfac7f2b7494fe51204692f0accaa54bc5efd485216d31f80d9f6762fe2b4e"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/torvalds/linux/24a19b953e2a3d0ea5a8c4951a0ab8f32720c907/sound/usb/quirks-table.h",
+                        "file":  "sound_usb_quirks-table.h",
+                        "sha256":  "eb3f5008966d21d197f1b1b4859808979c7628301e2c2b2e8e4684046e0ffa69"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/torvalds/linux/24a19b953e2a3d0ea5a8c4951a0ab8f32720c907/sound/usb/helper.c",
+                        "file":  "sound_usb_helper.c",
+                        "sha256":  "243a0971aaa91c55dddb9f38f186fc0b067d1be78b1676313428da84ffb82fb2"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/torvalds/linux/24a19b953e2a3d0ea5a8c4951a0ab8f32720c907/sound/usb/card.c",
+                        "file":  "sound_usb_card.c",
+                        "sha256":  "0b6cd1cbc83cfc76eebfad5d6ddab8d9af4283e6e7b6f6503bf2f9c0dccc6d0a"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/torvalds/linux/24a19b953e2a3d0ea5a8c4951a0ab8f32720c907/include/linux/usb/audio-v2.h",
+                        "file":  "include_linux_usb_audio-v2.h",
+                        "sha256":  "9e5608aa0d1117ce48c0ad573f080a81a57fef767ada6b72606beed30c1612ba"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/alsa-project/alsa-ucm-conf/d260eedd1900dbf3b477047e048d5382a5f50e24/ucm2/USB-Audio/USB-Audio.conf",
+                        "file":  "ucm2_USB-Audio_USB-Audio.conf",
+                        "sha256":  "6ebd10d7ff36891e9a75a06c510231904b1bc12c0b95e9eca7bb7f4cefda7b50"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/alsa-project/alsa-ucm-conf/d260eedd1900dbf3b477047e048d5382a5f50e24/ucm2/USB-Audio/Realtek/ALC4080.conf",
+                        "file":  "ucm2_USB-Audio_Realtek_ALC4080.conf",
+                        "sha256":  "1889cb68c77f67a150a3ccf40a34cda8edd702486d94eee711b18409f8507c07"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/alsa-project/alsa-ucm-conf/d260eedd1900dbf3b477047e048d5382a5f50e24/ucm2/USB-Audio/Realtek/ALC4080-HiFi.conf",
+                        "file":  "ucm2_USB-Audio_Realtek_ALC4080-HiFi.conf",
+                        "sha256":  "c8b0a3a46cdac355682a7084dc0c1411db3564c55e3abbce2de1627ad90a1e68"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/alsa-project/alsa-ucm-conf/d260eedd1900dbf3b477047e048d5382a5f50e24/ucm2/DEBUG.md",
+                        "file":  "ucm2_DEBUG.md",
+                        "sha256":  "9c5d4c2caf4e7b9cdfd8b36469bc419fc3f0a484b539faf7250e924e5e60ea77"
+                    },
+                    {
+                        "url":  "https://api.github.com/repos/alsa-project/alsa-ucm-conf/issues/718",
+                        "file":  "ucm-issue-718.json",
+                        "sha256":  "dd7279d97a29bb1e34bee7a6269b02b86437bf905a5e5bd12f155c6268dcc42b"
+                    },
+                    {
+                        "url":  "https://api.github.com/repos/alsa-project/alsa-ucm-conf/issues/718/comments?per_page=100",
+                        "file":  "ucm-issue-718-comments.json",
+                        "sha256":  "542f2ceae2af00ab1013330740a4152735b178ae488c58ee781590a582817727"
+                    },
+                    {
+                        "url":  "https://api.github.com/repos/alsa-project/alsa-ucm-conf/issues/780",
+                        "file":  "ucm-issue-780.json",
+                        "sha256":  "5ac579104afeb4856df695532e055eb8f65d1c6f54b72e897b0a22dd54387ee2"
+                    },
+                    {
+                        "url":  "https://api.github.com/repos/alsa-project/alsa-ucm-conf/issues/780/comments?per_page=100",
+                        "file":  "ucm-issue-780-comments.json",
+                        "sha256":  "c6ab092ad037ec1571cc145f06d7744659f2edfffb8e938464818ed67b71e193"
+                    },
+                    {
+                        "url":  "https://api.github.com/repos/alsa-project/alsa-ucm-conf/issues/541",
+                        "file":  "ucm-issue-541.json",
+                        "sha256":  "a9204cb14cc1ac551ea413436a9e08cc54f1a83be6b0bff7d18f7e4e25d5c27d"
+                    },
+                    {
+                        "url":  "https://api.github.com/repos/alsa-project/alsa-ucm-conf/issues/541/comments?per_page=100",
+                        "file":  "ucm-issue-541-comments.json",
+                        "sha256":  "5cf8832b57f66e882d08b363cdaa5623bbae6de3ee481e4bcea7116b9b8ce672"
+                    },
+                    {
+                        "url":  "https://pastebin.com/raw/3bdAwD74",
+                        "file":  "community-5.1-libusb.cpp",
+                        "sha256":  "05c2f99f464f880074e5a76428cbc0bf06a70c35e52f273e8cf0dac73d839758"
+                    }
+                ],
+    "ucm_commit":  "d260eedd1900dbf3b477047e048d5382a5f50e24",
+    "checked_date":  "2026-10-13"
+}

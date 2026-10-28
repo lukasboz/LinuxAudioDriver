@@ -1,0 +1,26 @@
+{
+  "request": {
+    "name": "open_binary",
+    "arguments": {
+      "path": "C:\\Users\\lukas\\Github Projects\\LinuxAudioDriver\\observations\\driver_reverse_engineering\\package\\Win11\\USBAud\\Win64\\RtUsbA64.sys",
+      "provider_id": "ghidra"
+    }
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"result\":{\"path\":\"C:\\\\Users\\\\lukas\\\\Github Projects\\\\LinuxAudioDriver\\\\observations\\\\driver_reverse_engineering\\\\package\\\\Win11\\\\USBAud\\\\Win64\\\\RtUsbA64.sys\",\"format\":\"pe\",\"kind\":\"executable\",\"sha256\":\"4fef11b7d0d2b04b9ca830a4b10f02a60c0c105703d80f4a746e9be5411a8921\",\"architecture\":\"x86_64\"}}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "path": "C:\\Users\\lukas\\Github Projects\\LinuxAudioDriver\\observations\\driver_reverse_engineering\\package\\Win11\\USBAud\\Win64\\RtUsbA64.sys",
+        "format": "pe",
+        "kind": "executable",
+        "sha256": "4fef11b7d0d2b04b9ca830a4b10f02a60c0c105703d80f4a746e9be5411a8921",
+        "architecture": "x86_64"
+      }
+    }
+  }
+}

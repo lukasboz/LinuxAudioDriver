@@ -1,0 +1,47 @@
+{
+  "address": "0x140055990",
+  "name": "FUN_140055990",
+  "signature": "undefined __fastcall FUN_140055990(longlong param_1)",
+  "callees": [
+    {
+      "address": "0x140030f40",
+      "name": "FUN_140030f40",
+      "signature": "undefined8 __fastcall FUN_140030f40(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140059b50",
+      "name": "_guard_dispatch_icall",
+      "signature": "undefined __fastcall _guard_dispatch_icall(void)"
+    },
+    {
+      "address": "0x14001cd24",
+      "name": "FUN_14001cd24",
+      "signature": "undefined __fastcall FUN_14001cd24(longlong param_1)"
+    },
+    {
+      "address": "0x14001ee30",
+      "name": "FUN_14001ee30",
+      "signature": "undefined __fastcall FUN_14001ee30(longlong param_1)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x140055b90",
+      "name": "FUN_140055b90",
+      "signature": "undefined __fastcall FUN_140055b90(int * param_1)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_140055990(longlong param_1)\r\n\r\n{\r\n  ushort *puVar1;\r\n  short sVar2;\r\n  longlong lVar3;\r\n  longlong lVar4;\r\n  int iVar5;\r\n  int iVar6;\r\n  longlong lVar7;\r\n  byte bVar8;\r\n  ushort uVar9;\r\n  int iVar10;\r\n  int iVar11;\r\n  \r\n  lVar7 \u003d *(longlong *)(param_1 + 0x28);\r\n  if (*(longlong *)(lVar7 + 0xb18) \u003d\u003d 0) {\r\n    *(ushort *)(param_1 + 0x4c) \u003d *(ushort *)(param_1 + 0x4c) | 6;\r\n  }\r\n  else {\r\n    iVar11 \u003d *(int *)(lVar7 + 0xba0);\r\n    if (*(int *)(lVar7 + 0xba0) \u003d\u003d 0) {\r\n      iVar11 \u003d 1;\r\n    }\r\n    iVar10 \u003d -1;\r\n    do {\r\n      iVar6 \u003d (*(code *)PTR__guard_dispatch_icall_14005f458)\r\n                        (*(undefined8 *)(*(longlong *)(param_1 + 0x28) + 0xb18),\r\n                         *(undefined8 *)(param_1 + 0x18),param_1);\r\n      iVar5 \u003d iVar6;\r\n      if ((iVar10 !\u003d -1) \u0026\u0026 (iVar5 \u003d iVar10, iVar10 !\u003d iVar6)) {\r\n        return;\r\n      }\r\n      iVar10 \u003d iVar5;\r\n      iVar11 \u003d iVar11 + -1;\r\n    } while (iVar11 !\u003d 0);\r\n    lVar7 \u003d *(longlong *)(param_1 + 0x28);\r\n    uVar9 \u003d (*(ushort *)(param_1 + 0x4c) \u0026 2 | (ushort)iVar6 \u0026 1) * 2 |\r\n            *(ushort *)(param_1 + 0x4c) \u0026 0xfff9;\r\n    *(ushort *)(param_1 + 0x4c) \u003d uVar9;\r\n    if (((*(uint *)(lVar7 + 0x2384) \u0026 0xc0000) !\u003d 0) \u0026\u0026\r\n       (bVar8 \u003d (byte)uVar9, ((bVar8 \u003e\u003e 1 ^ bVar8) \u0026 2) !\u003d 0)) {\r\n      FUN_140030f40(lVar7,param_1);\r\n      lVar7 \u003d *(longlong *)(param_1 + 0x28);\r\n    }\r\n  }\r\n  if (param_1 !\u003d *(longlong *)(lVar7 + 0xe10)) {\r\n    return;\r\n  }\r\n  lVar3 \u003d *(longlong *)(lVar7 + 0xe18);\r\n  if (lVar3 \u003d\u003d 0) {\r\n    return;\r\n  }\r\n  if ((*(uint *)(lVar7 + 0x2380) \u0026 0x4000000) \u003d\u003d 0) {\r\n    return;\r\n  }\r\n  lVar4 \u003d *(longlong *)(lVar7 + 0xb20);\r\n  if (lVar4 \u003d\u003d 0) {\r\n    return;\r\n  }\r\n  sVar2 \u003d *(short *)(lVar7 + 0xe68);\r\n  if ((sVar2 \u003d\u003d 0x4040) || (sVar2 \u003d\u003d 0x4042)) {\r\n    if ((*(byte *)(param_1 + 0x4c) \u0026 2) \u003d\u003d 0) goto LAB_140055b46;\r\n    FUN_14001cd24(lVar4);\r\n  }\r\n  else {\r\n    if (sVar2 !\u003d 0x4050) {\r\n      return;\r\n    }\r\n    if ((*(byte *)(param_1 + 0x4c) \u0026 2) \u003d\u003d 0) {\r\nLAB_140055b46:\r\n      uVar9 \u003d *(ushort *)(lVar3 + 0x4c);\r\n      *(ushort *)(lVar3 + 0x4c) \u003d (uVar9 * 2 ^ uVar9) \u0026 4 ^ uVar9;\r\n      goto LAB_140055b60;\r\n    }\r\n    FUN_14001ee30(lVar4);\r\n  }\r\n  if ((*(int *)(lVar4 + 0x1f0) \u003d\u003d 1) || (*(int *)(lVar4 + 0x1f0) \u003d\u003d 2)) {\r\n    lVar7 \u003d *(longlong *)(*(longlong *)(param_1 + 0x28) + 0xe18);\r\n    uVar9 \u003d *(ushort *)(lVar7 + 0x4c);\r\n    *(ushort *)(lVar7 + 0x4c) \u003d (uVar9 * 2 ^ uVar9) \u0026 4 ^ uVar9;\r\n    puVar1 \u003d (ushort *)(*(longlong *)(*(longlong *)(param_1 + 0x28) + 0xe18) + 0x4c);\r\n    *puVar1 \u003d *puVar1 | 2;\r\n    return;\r\n  }\r\n  lVar7 \u003d *(longlong *)(*(longlong *)(param_1 + 0x28) + 0xe18);\r\n  uVar9 \u003d *(ushort *)(lVar7 + 0x4c);\r\n  *(ushort *)(lVar7 + 0x4c) \u003d (uVar9 * 2 ^ uVar9) \u0026 4 ^ uVar9;\r\nLAB_140055b60:\r\n  puVar1 \u003d (ushort *)(*(longlong *)(*(longlong *)(param_1 + 0x28) + 0xe18) + 0x4c);\r\n  *puVar1 \u003d *puVar1 \u0026 0xfffd;\r\n  return;\r\n}\r\n\r\n"
+}

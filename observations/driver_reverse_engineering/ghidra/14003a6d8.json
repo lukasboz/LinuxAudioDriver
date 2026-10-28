@@ -1,0 +1,62 @@
+{
+  "address": "0x14003a6d8",
+  "name": "FUN_14003a6d8",
+  "signature": "undefined __fastcall FUN_14003a6d8(short * param_1)",
+  "callees": [
+    {
+      "address": "0x14004d7e8",
+      "name": "FUN_14004d7e8",
+      "signature": "undefined8 __fastcall FUN_14004d7e8(short * param_1, uint param_2, longlong param_3, int * param_4)"
+    },
+    {
+      "address": "0x14004db18",
+      "name": "FUN_14004db18",
+      "signature": "int __fastcall FUN_14004db18(longlong param_1, uint param_2, longlong param_3, uint * param_4)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x140019984",
+      "name": "FUN_140019984",
+      "signature": "undefined __fastcall FUN_140019984(longlong param_1)"
+    },
+    {
+      "address": "0x14003a868",
+      "name": "FUN_14003a868",
+      "signature": "int __fastcall FUN_14003a868(short * param_1)"
+    },
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x1400211ec",
+      "name": "FUN_1400211ec",
+      "signature": "undefined4 * __fastcall FUN_1400211ec(longlong * param_1)"
+    },
+    {
+      "address": "0x14003be28",
+      "name": "FUN_14003be28",
+      "signature": "undefined __fastcall FUN_14003be28(short * param_1, int param_2, undefined4 param_3)"
+    },
+    {
+      "address": "0x14004f5fc",
+      "name": "FUN_14004f5fc",
+      "signature": "int __fastcall FUN_14004f5fc(longlong * param_1)"
+    },
+    {
+      "address": "0x1400199c8",
+      "name": "FUN_1400199c8",
+      "signature": "undefined __fastcall FUN_1400199c8(longlong param_1)"
+    },
+    {
+      "address": "0x1400229c0",
+      "name": "FUN_1400229c0",
+      "signature": "undefined8 __fastcall FUN_1400229c0(longlong * param_1, longlong * param_2)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_14003a6d8(short *param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  uint uVar2;\r\n  longlong lVar3;\r\n  undefined8 local_38;\r\n  undefined8 uStack_30;\r\n  undefined8 local_28;\r\n  undefined8 uStack_20;\r\n  ulonglong local_18;\r\n  \r\n  uVar1 \u003d 0;\r\n  if (*(int *)(param_1 + 0x108) !\u003d 0) {\r\n    do {\r\n      uVar2 \u003d 0;\r\n      lVar3 \u003d (ulonglong)uVar1 * 0x98 + *(longlong *)(param_1 + 0x10c);\r\n      if (*(char *)(*(longlong *)(lVar3 + 0x18) + 0x26) !\u003d \u0027\\0\u0027) {\r\n        do {\r\n          uStack_20 \u003d 0;\r\n          local_28 \u003d 0x1000200000000;\r\n          local_18 \u003d (ulonglong)uVar2;\r\n          local_38 \u003d 0;\r\n          uStack_30 \u003d 0;\r\n          FUN_14004db18((longlong)param_1,uVar1,(longlong)\u0026local_38,(uint *)0x0);\r\n          if ((*(uint *)(*(longlong *)(param_1 + 0x168) + 0x2374) \u0026 0x200) !\u003d 0) {\r\n            FUN_14004d7e8(param_1,uVar1,(longlong)\u0026local_38,(int *)0x0);\r\n          }\r\n          uVar2 \u003d uVar2 + 1;\r\n        } while (uVar2 \u003c *(byte *)(*(longlong *)(lVar3 + 0x18) + 0x26));\r\n      }\r\n      uVar1 \u003d uVar1 + 1;\r\n    } while (uVar1 \u003c *(uint *)(param_1 + 0x108));\r\n  }\r\n  return;\r\n}\r\n\r\n"
+}

@@ -1,0 +1,45 @@
+2026-10-13 18:35:26 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/Users/lukas/.rea/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-13 18:35:26 INFO  (LoggingInitialization) Using log file: C:\Users\lukas\Github Projects\LinuxAudioDriver\observations\driver_reverse_engineering\ghidra-boost.log  
+2026-10-13 18:35:26 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-13 18:35:26 INFO  (Preferences) Loading user preferences: C:\Users\lukas\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\preferences  
+2026-10-13 18:35:26 INFO  (ClassSearcher) Searching for classes...  
+2026-10-13 18:35:28 INFO  (ClassSearcher) Class search complete (1275 ms)  
+2026-10-13 18:35:28 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-13 18:35:28 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-13 18:35:28 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-10-13 18:35:28 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-10-13 18:35:29 INFO  (AnalyzeHeadless) Headless startup complete (3289 ms)  
+2026-10-13 18:35:29 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-10-13 18:35:29 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\lukas\Github Projects\LinuxAudioDriver\tools\ghidra
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\lukas\.rea\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts  
+2026-10-13 18:35:29 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-13 18:35:29 INFO  (HeadlessAnalyzer) Opening existing project: C:\Users\lukas\Github Projects\LinuxAudioDriver\observations\driver_reverse_engineering\ghidra_project\RealtekUSB  
+2026-10-13 18:35:29 INFO  (HeadlessProject) Opening project: C:\Users\lukas\Github Projects\LinuxAudioDriver\observations\driver_reverse_engineering\ghidra_project\RealtekUSB  
+2026-10-13 18:35:34 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /RtUsbA64.sys  
+2026-10-13 18:35:34 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportAudioDriver.java 'C:\Users\lukas\Github Projects\LinuxAudioDriver\observations\driver_reverse_engineering\ghidra' '14003c4a8'   
+2026-10-13 18:35:34 INFO  (HeadlessAnalyzer) SCRIPT: C:\Users\lukas\Github Projects\LinuxAudioDriver\tools\ghidra\ExportAudioDriver.java  
+2026-10-13 18:35:36 INFO  (GhidraScript) ExportAudioDriver.java> EXPORTED 14003c4a8 FUN_14003c4a8  
+2026-10-13 18:35:36 INFO  (GhidraScript) ExportAudioDriver.java> FUNCTIONS 966 STRINGS 514 SELECTED 1  
+2026-10-13 18:35:36 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /RtUsbA64.sys  

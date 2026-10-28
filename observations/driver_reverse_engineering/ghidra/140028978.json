@@ -1,0 +1,32 @@
+{
+  "address": "0x140028978",
+  "name": "FUN_140028978",
+  "signature": "undefined8 __fastcall FUN_140028978(longlong param_1, uint param_2, longlong param_3, int param_4)",
+  "callees": [
+    {
+      "address": "0x140057e50",
+      "name": "__security_check_cookie",
+      "signature": "void __cdecl __security_check_cookie(uintptr_t _StackCookie)"
+    },
+    {
+      "address": "0x14003190c",
+      "name": "FUN_14003190c",
+      "signature": "undefined __fastcall FUN_14003190c(longlong param_1, undefined2 param_2, undefined1 param_3, undefined1 param_4, undefined2 param_5, undefined2 param_6, undefined8 param_7, undefined4 param_8, char param_9)"
+    },
+    {
+      "address": "0x14005b100",
+      "name": "FUN_14005b100",
+      "signature": "undefined8 * __fastcall FUN_14005b100(undefined8 * param_1, undefined8 * param_2, ulonglong param_3)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x140028804",
+      "name": "FUN_140028804",
+      "signature": "undefined8 __fastcall FUN_140028804(longlong param_1, ushort * param_2)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\r\n\r\nundefined8 FUN_140028978(longlong param_1,uint param_2,longlong param_3,int param_4)\r\n\r\n{\r\n  uint uVar1;\r\n  int iVar2;\r\n  undefined8 uVar3;\r\n  uint uVar4;\r\n  undefined1 auStackY_98 [32];\r\n  undefined8 local_48;\r\n  ulonglong local_40;\r\n  \r\n  local_40 \u003d DAT_1400698c0 ^ (ulonglong)auStackY_98;\r\n  uVar4 \u003d param_4 \u003e\u003e 0x1f \u0026 7;\r\n  uVar1 \u003d param_4 + uVar4;\r\n  iVar2 \u003d (uVar1 \u0026 7) - uVar4;\r\n  for (uVar4 \u003d param_2; uVar4 \u003c ((int)uVar1 \u003e\u003e 3) + param_2; uVar4 \u003d uVar4 + 1) {\r\n    uVar3 \u003d FUN_14003190c(param_1,0x17,0xc0,7,(ushort)uVar4 \u0026 0xff,(short)param_2,\r\n                          (ulonglong)((uVar4 - param_2) * 8) + param_3,8,\u0027\\x01\u0027);\r\n    if ((int)uVar3 \u003c 0) {\r\n      return uVar3;\r\n    }\r\n  }\r\n  if (iVar2 !\u003d 0) {\r\n    uVar3 \u003d FUN_14003190c(param_1,0x17,0xc0,7,(ushort)uVar4 \u0026 0xff,(short)param_2,\u0026local_48,8,\u0027\\x01\u0027\r\n                         );\r\n    if ((int)uVar3 \u003c 0) {\r\n      return uVar3;\r\n    }\r\n    FUN_14005b100((undefined8 *)((ulonglong)((uVar4 - param_2) * 8) + param_3),\u0026local_48,\r\n                  (longlong)iVar2);\r\n  }\r\n  return 0;\r\n}\r\n\r\n"
+}

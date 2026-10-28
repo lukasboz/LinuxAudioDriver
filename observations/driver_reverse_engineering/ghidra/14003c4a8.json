@@ -1,0 +1,77 @@
+{
+  "address": "0x14003c4a8",
+  "name": "FUN_14003c4a8",
+  "signature": "undefined __fastcall FUN_14003c4a8(short * param_1, int param_2, short * param_3, uint param_4)",
+  "callees": [
+    {
+      "address": "0x14003bf88",
+      "name": "FUN_14003bf88",
+      "signature": "int __fastcall FUN_14003bf88(short * param_1, longlong param_2, short * param_3, uint param_4, int param_5, int param_6, int param_7)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x140045050",
+      "name": "FUN_140045050",
+      "signature": "undefined __fastcall FUN_140045050(longlong param_1, short * param_2)"
+    },
+    {
+      "address": "0x14004d7e8",
+      "name": "FUN_14004d7e8",
+      "signature": "undefined8 __fastcall FUN_14004d7e8(short * param_1, uint param_2, longlong param_3, int * param_4)"
+    },
+    {
+      "address": "0x14001c0f0",
+      "name": "FUN_14001c0f0",
+      "signature": "undefined8 __fastcall FUN_14001c0f0(longlong param_1, short * param_2, longlong param_3, uint param_4)"
+    },
+    {
+      "address": "0x140047ca0",
+      "name": "FUN_140047ca0",
+      "signature": "int __fastcall FUN_140047ca0(longlong param_1, short * param_2, longlong param_3, uint param_4)"
+    },
+    {
+      "address": "0x14001e1e0",
+      "name": "FUN_14001e1e0",
+      "signature": "undefined8 __fastcall FUN_14001e1e0(longlong param_1, short * param_2, longlong param_3, uint param_4)"
+    },
+    {
+      "address": "0x14003ad10",
+      "name": "FUN_14003ad10",
+      "signature": "undefined4 __fastcall FUN_14003ad10(short * param_1, longlong param_2)"
+    },
+    {
+      "address": "0x14001a170",
+      "name": "FUN_14001a170",
+      "signature": "undefined8 __fastcall FUN_14001a170(longlong param_1, short * param_2, longlong param_3, uint param_4)"
+    },
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x1400524f8",
+      "name": "FUN_1400524f8",
+      "signature": "int __fastcall FUN_1400524f8(longlong param_1, short * param_2, int param_3)"
+    }
+  ],
+  "assembly": [
+    "0x14003c4a8 SUB RSP,0x48",
+    "0x14003c4ac CMP EDX,0xf",
+    "0x14003c4af JGE 0x14003c4d9",
+    "0x14003c4b1 LFENCE",
+    "0x14003c4b4 AND dword ptr [RSP + 0x30],0x0",
+    "0x14003c4b9 LEA RAX,[0x140067470]",
+    "0x14003c4c0 AND dword ptr [RSP + 0x28],0x0",
+    "0x14003c4c5 MOVSXD RDX,EDX",
+    "0x14003c4c8 MOV dword ptr [RSP + 0x20],0x1",
+    "0x14003c4d0 MOV RDX,qword ptr [RAX + RDX*0x8]",
+    "0x14003c4d4 CALL 0x14003bf88",
+    "0x14003c4d9 ADD RSP,0x48",
+    "0x14003c4dd RET"
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_14003c4a8(short *param_1,int param_2,short *param_3,uint param_4)\r\n\r\n{\r\n  if (param_2 \u003c 0xf) {\r\n    FUN_14003bf88(param_1,(longlong)(\u0026PTR_u__3BA0CD54_830F_4551_A6EB_F3EAB68_140067470)[param_2],\r\n                  param_3,param_4,1,0,0);\r\n  }\r\n  return;\r\n}\r\n\r\n"
+}

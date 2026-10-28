@@ -1,0 +1,66 @@
+{
+  "address": "0x140052368",
+  "name": "FUN_140052368",
+  "signature": "undefined __fastcall FUN_140052368(longlong param_1, undefined1 param_2)",
+  "callees": [
+    {
+      "address": "0x14003190c",
+      "name": "FUN_14003190c",
+      "signature": "undefined __fastcall FUN_14003190c(longlong param_1, undefined2 param_2, undefined1 param_3, undefined1 param_4, undefined2 param_5, undefined2 param_6, undefined8 param_7, undefined4 param_8, char param_9)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x1400310c0",
+      "name": "FUN_1400310c0",
+      "signature": "undefined8 __fastcall FUN_1400310c0(longlong param_1)"
+    },
+    {
+      "address": "0x1400229c0",
+      "name": "FUN_1400229c0",
+      "signature": "undefined8 __fastcall FUN_1400229c0(longlong * param_1, longlong * param_2)"
+    },
+    {
+      "address": "0x14004e354",
+      "name": "FUN_14004e354",
+      "signature": "undefined8 __fastcall FUN_14004e354(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x14004f5fc",
+      "name": "FUN_14004f5fc",
+      "signature": "int __fastcall FUN_14004f5fc(longlong * param_1)"
+    },
+    {
+      "address": "0x14002b7a4",
+      "name": "FUN_14002b7a4",
+      "signature": "undefined __fastcall FUN_14002b7a4(longlong param_1)"
+    }
+  ],
+  "assembly": [
+    "0x140052368 MOV byte ptr [RSP + 0x10],DL",
+    "0x14005236c MOV R11,RSP",
+    "0x14005236f SUB RSP,0x58",
+    "0x140052373 MOV R9D,0x1",
+    "0x140052379 LEA RAX,[R11 + 0x10]",
+    "0x14005237d XOR R8D,R8D",
+    "0x140052380 MOV byte ptr [R11 + -0x18],R8B",
+    "0x140052384 MOV dword ptr [R11 + -0x20],R9D",
+    "0x140052388 MOV qword ptr [R11 + -0x28],RAX",
+    "0x14005238c LEA EDX,[R9 + 0x16]",
+    "0x140052390 MOV word ptr [R11 + -0x30],R9W",
+    "0x140052395 MOV R9B,0x6c",
+    "0x140052398 MOV word ptr [R11 + -0x38],R8W",
+    "0x14005239d MOV R8B,0x40",
+    "0x1400523a0 CALL 0x14003190c",
+    "0x1400523a5 ADD RSP,0x58",
+    "0x1400523a9 RET"
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_140052368(longlong param_1,undefined1 param_2)\r\n\r\n{\r\n  undefined1 local_res10 [24];\r\n  \r\n  local_res10[0] \u003d param_2;\r\n  FUN_14003190c(param_1,0x17,0x40,0x6c,0,1,local_res10,1,\u0027\\0\u0027);\r\n  return;\r\n}\r\n\r\n"
+}

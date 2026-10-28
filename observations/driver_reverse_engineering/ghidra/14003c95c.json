@@ -1,0 +1,27 @@
+{
+  "address": "0x14003c95c",
+  "name": "FUN_14003c95c",
+  "signature": "undefined __fastcall FUN_14003c95c(longlong param_1, int param_2)",
+  "callees": [
+    {
+      "address": "0x14003cbd8",
+      "name": "FUN_14003cbd8",
+      "signature": "undefined __fastcall FUN_14003cbd8(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x14003c8b8",
+      "name": "FUN_14003c8b8",
+      "signature": "undefined __fastcall FUN_14003c8b8(longlong param_1, int param_2)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_14003c95c(longlong param_1,int param_2)\r\n\r\n{\r\n  longlong lVar1;\r\n  undefined *puVar2;\r\n  int iVar3;\r\n  uint uVar4;\r\n  ulonglong uVar5;\r\n  bool bVar6;\r\n  \r\n  FUN_14003cbd8(param_1,param_2);\r\n  FUN_14003c8b8(param_1,param_2);\r\n  lVar1 \u003d *(longlong *)(param_1 + 0x2d0);\r\n  iVar3 \u003d *(int *)(lVar1 + 0x26b0);\r\n  if ((iVar3 \u003d\u003d 0x42) || (iVar3 \u003d\u003d 0xa3)) {\r\n    bVar6 \u003d (*(int *)(param_1 + 0x2c8) - 1U \u0026 0xfffffffd) \u003d\u003d 0;\r\nLAB_14003ca95:\r\n    if (!bVar6) {\r\n      return;\r\n    }\r\n  }\r\n  else if (iVar3 \u003d\u003d 0xb1) {\r\n    if ((((*(uint *)(lVar1 + 0x2384) \u0026 0x80000) \u003d\u003d 0) ||\r\n        (*(uint *)(param_1 + 0x2c8) !\u003d (uint)*(byte *)(lVar1 + 0xcb3))) \u0026\u0026\r\n       (*(uint *)(param_1 + 0x2c8) !\u003d (uint)*(byte *)(lVar1 + 0xcb1))) {\r\n      bVar6 \u003d *(uint *)(param_1 + 0x2c8) \u003d\u003d (uint)*(byte *)(lVar1 + 0xcb4);\r\n      goto LAB_14003ca95;\r\n    }\r\n  }\r\n  else if (iVar3 \u003d\u003d 0xb4) {\r\n    if (((*(int *)(lVar1 + 0x26b4) - 0x84U \u003c 2) \u0026\u0026\r\n        (uVar4 \u003d *(uint *)(param_1 + 0x2c8), uVar4 !\u003d *(byte *)(lVar1 + 0xcb1))) \u0026\u0026\r\n       (uVar4 !\u003d *(byte *)(lVar1 + 0xcb4))) {\r\n      if (uVar4 !\u003d *(byte *)(lVar1 + 0xcb2)) {\r\n        return;\r\n      }\r\n      if (*(int *)(lVar1 + 0x26b4) !\u003d 0x85) {\r\n        bVar6 \u003d *(short *)(lVar1 + 0x26a8) \u003d\u003d 0x1b9b;\r\n        goto LAB_14003ca95;\r\n      }\r\n    }\r\n  }\r\n  else if (iVar3 !\u003d 0xcb) {\r\n    if (*(int *)(param_1 + 0x2d8) \u003d\u003d 8) {\r\n      return;\r\n    }\r\n    if (*(int *)(param_1 + 0x2d8) \u003d\u003d 0xb) {\r\n      return;\r\n    }\r\n    if (*(short *)(lVar1 + 0xe68) \u003d\u003d 0) {\r\n      return;\r\n    }\r\n  }\r\n  iVar3 \u003d param_2;\r\n  if (*(int *)(param_1 + 0x32c) \u003d\u003d 0) {\r\nLAB_14003cab2:\r\n    if (((iVar3 !\u003d 0) \u0026\u0026 (iVar3 !\u003d 1)) \u0026\u0026 ((iVar3 !\u003d 2 \u0026\u0026 ((iVar3 !\u003d 3 \u0026\u0026 (iVar3 !\u003d 4))))))\r\n    goto LAB_14003cace;\r\n  }\r\n  else if (param_2 !\u003d 6) {\r\n    iVar3 \u003d param_2 + -7;\r\n    goto LAB_14003cab2;\r\n  }\r\n  *(int *)(param_1 + 0x2d8) \u003d param_2;\r\nLAB_14003cace:\r\n  uVar5 \u003d 0;\r\n  if (*(int *)(param_1 + 0xa8) !\u003d 0) {\r\n    do {\r\n      lVar1 \u003d *(longlong *)(param_1 + 0xb0);\r\n      if ((*(uint *)(lVar1 + 0x44 + uVar5 * 0x90) \u0026 0xfffffffb) \u003d\u003d 0) {\r\n        if (*(int *)(param_1 + 0x32c) \u003d\u003d 0) {\r\n          if ((param_2 \u003d\u003d 0) || (((param_2 !\u003d 1 \u0026\u0026 (param_2 !\u003d 2)) \u0026\u0026 (param_2 !\u003d 3)))) {\r\n            *(undefined **)(lVar1 + 0x48 + uVar5 * 0x90) \u003d \u0026DAT_140060f88;\r\n            *(undefined **)(lVar1 + 0x50 + uVar5 * 0x90) \u003d \u0026DAT_140060f88;\r\n          }\r\n          else {\r\n            *(undefined **)(lVar1 + 0x48 + uVar5 * 0x90) \u003d \u0026DAT_140060ff8;\r\n            *(undefined **)(lVar1 + 0x50 + uVar5 * 0x90) \u003d \u0026DAT_140060ff8;\r\n          }\r\n        }\r\n        else {\r\n          if (param_2 \u003d\u003d 7) {\r\n            *(undefined **)(lVar1 + 0x48 + uVar5 * 0x90) \u003d \u0026DAT_140060fe8;\r\n            puVar2 \u003d \u0026DAT_140061048;\r\n          }\r\n          else if (param_2 \u003d\u003d 10) {\r\n            *(undefined **)(lVar1 + 0x48 + uVar5 * 0x90) \u003d \u0026DAT_140061008;\r\n            puVar2 \u003d \u0026DAT_140061008;\r\n          }\r\n          else {\r\n            iVar3 \u003d *(int *)(*(longlong *)(param_1 + 0x2d0) + 0x26b0);\r\n            *(undefined **)(lVar1 + 0x48 + uVar5 * 0x90) \u003d \u0026DAT_140061018;\r\n            if (iVar3 \u003d\u003d 0x42) {\r\n              puVar2 \u003d \u0026DAT_140061018;\r\n            }\r\n            else {\r\n              puVar2 \u003d \u0026DAT_140061028;\r\n              if (*(int *)(param_1 + 0x380) !\u003d 4) {\r\n                puVar2 \u003d \u0026DAT_140061018;\r\n              }\r\n            }\r\n          }\r\n          *(undefined **)(lVar1 + 0x50 + uVar5 * 0x90) \u003d puVar2;\r\n        }\r\n      }\r\n      uVar4 \u003d (int)uVar5 + 1;\r\n      uVar5 \u003d (ulonglong)uVar4;\r\n    } while (uVar4 \u003c *(uint *)(param_1 + 0xa8));\r\n  }\r\n  return;\r\n}\r\n\r\n"
+}

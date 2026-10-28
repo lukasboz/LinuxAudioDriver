@@ -1,0 +1,32 @@
+{
+  "address": "0x14002ed34",
+  "name": "FUN_14002ed34",
+  "signature": "undefined __fastcall FUN_14002ed34(longlong param_1)",
+  "callees": [
+    {
+      "address": "0x14001b4c8",
+      "name": "FUN_14001b4c8",
+      "signature": "undefined __fastcall FUN_14001b4c8(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4)"
+    },
+    {
+      "address": "0x14002db9c",
+      "name": "FUN_14002db9c",
+      "signature": "ulonglong __fastcall FUN_14002db9c(longlong * param_1, longlong param_2, undefined8 param_3, uint * param_4, undefined8 * param_5, longlong param_6, undefined4 param_7)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140030838",
+      "name": "FUN_140030838",
+      "signature": "undefined __fastcall FUN_140030838(longlong param_1, longlong param_2, undefined8 param_3, int param_4, int param_5)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_14002ed34(longlong param_1)\r\n\r\n{\r\n  longlong *plVar1;\r\n  uint uVar2;\r\n  ulonglong uVar3;\r\n  int iVar4;\r\n  uint local_res8 [2];\r\n  int local_res10 [2];\r\n  undefined4 local_res18 [4];\r\n  \r\n  local_res10[0] \u003d 0;\r\n  if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n     ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n    FUN_14001b4c8(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0x17,\u0026DAT_1400602c8,\r\n                  \"CCommon::RestoreSettingsFromRegistry\");\r\n  }\r\n  local_res18[0] \u003d 0xffff;\r\n  local_res8[0] \u003d 4;\r\n  plVar1 \u003d (longlong *)(param_1 + 0x2348);\r\n  uVar3 \u003d FUN_14002db9c(plVar1,0x14005b7c0,L\"JackConfig\",local_res8,(undefined8 *)local_res18,0,1);\r\n  if (-1 \u003c (int)uVar3) {\r\n    *(undefined4 *)(param_1 + 0x2394) \u003d local_res18[0];\r\n  }\r\n  local_res8[0] \u003d 4;\r\n  FUN_14002db9c(plVar1,0x14005b7c0,L\"redirected_playback_widget_id\",local_res8,\r\n                (undefined8 *)(param_1 + 0x40),0,1);\r\n  FUN_14002db9c(plVar1,0x14005b7c0,L\"redirected_recording_widget_id\",local_res8,\r\n                (undefined8 *)(param_1 + 0x44),0,1);\r\n  local_res8[0] \u003d 4;\r\n  uVar3 \u003d FUN_14002db9c(plVar1,0x14005b7c0,L\"JackConfig.DisFPJD\",local_res8,\r\n                        (undefined8 *)local_res10,0,1);\r\n  if (-1 \u003c (int)uVar3) {\r\n    if (local_res10[0] \u003d\u003d 0) {\r\n      uVar2 \u003d *(uint *)(param_1 + 0x2394) \u0026 0xffffff7f;\r\n    }\r\n    else {\r\n      uVar2 \u003d *(uint *)(param_1 + 0x2394) | 0x80;\r\n    }\r\n    *(uint *)(param_1 + 0x2394) \u003d uVar2;\r\n  }\r\n  local_res8[0] \u003d 4;\r\n  uVar3 \u003d FUN_14002db9c(plVar1,0x14005b7c0,L\"DisableSmartAmpFunction\",local_res8,\r\n                        (undefined8 *)local_res10,0,1);\r\n  iVar4 \u003d -0x80000000;\r\n  if (-1 \u003c (int)uVar3) {\r\n    iVar4 \u003d local_res10[0];\r\n  }\r\n  *(int *)(param_1 + 0xce8) \u003d iVar4;\r\n  return;\r\n}\r\n\r\n"
+}

@@ -1,0 +1,102 @@
+{
+  "address": "0x140023438",
+  "name": "FUN_140023438",
+  "signature": "undefined8 * __fastcall FUN_140023438(undefined8 * param_1, longlong param_2)",
+  "callees": [
+    {
+      "address": "0x140059b50",
+      "name": "_guard_dispatch_icall",
+      "signature": "undefined __fastcall _guard_dispatch_icall(void)"
+    },
+    {
+      "address": "0xEXTERNAL:00000063",
+      "name": "KeInitializeMutex",
+      "signature": "undefined KeInitializeMutex(void)"
+    },
+    {
+      "address": "0x140057e50",
+      "name": "__security_check_cookie",
+      "signature": "void __cdecl __security_check_cookie(uintptr_t _StackCookie)"
+    },
+    {
+      "address": "0x140057e8c",
+      "name": "FUN_140057e8c",
+      "signature": "undefined8 * __fastcall FUN_140057e8c(undefined8 * param_1, undefined8 * param_2)"
+    },
+    {
+      "address": "0xEXTERNAL:0000005a",
+      "name": "KeInitializeSpinLock",
+      "signature": "undefined KeInitializeSpinLock(void)"
+    },
+    {
+      "address": "0x14004be84",
+      "name": "FUN_14004be84",
+      "signature": "undefined8 * __fastcall FUN_14004be84(undefined8 * param_1)"
+    },
+    {
+      "address": "0xEXTERNAL:00000065",
+      "name": "KeInitializeEvent",
+      "signature": "undefined KeInitializeEvent(void)"
+    },
+    {
+      "address": "0x14005b000",
+      "name": "memset",
+      "signature": "void * __cdecl memset(void * _Dst, int _Val, size_t _Size)"
+    },
+    {
+      "address": "0x140028fc8",
+      "name": "FUN_140028fc8",
+      "signature": "int __fastcall FUN_140028fc8(undefined8 param_1, undefined8 param_2, undefined8 * param_3, undefined8 param_4)"
+    },
+    {
+      "address": "0xEXTERNAL:00000029",
+      "name": "RtlCompareMemory",
+      "signature": "undefined RtlCompareMemory(void)"
+    },
+    {
+      "address": "0x140031bac",
+      "name": "FUN_140031bac",
+      "signature": "bool __fastcall FUN_140031bac(longlong * param_1, longlong param_2, undefined8 param_3, undefined4 param_4, undefined4 param_5, undefined8 param_6, longlong param_7)"
+    },
+    {
+      "address": "0xEXTERNAL:00000022",
+      "name": "MmGetSystemRoutineAddress",
+      "signature": "undefined MmGetSystemRoutineAddress(void)"
+    },
+    {
+      "address": "0x14002db9c",
+      "name": "FUN_14002db9c",
+      "signature": "ulonglong __fastcall FUN_14002db9c(longlong * param_1, longlong param_2, undefined8 param_3, uint * param_4, undefined8 * param_5, longlong param_6, undefined4 param_7)"
+    },
+    {
+      "address": "0xEXTERNAL:0000006c",
+      "name": "ExAllocatePoolWithTag",
+      "signature": "undefined ExAllocatePoolWithTag(void)"
+    },
+    {
+      "address": "0xEXTERNAL:0000003a",
+      "name": "IoSetDeviceInterfaceState",
+      "signature": "undefined IoSetDeviceInterfaceState(void)"
+    },
+    {
+      "address": "0xEXTERNAL:00000038",
+      "name": "IoRegisterDeviceInterface",
+      "signature": "undefined IoRegisterDeviceInterface(void)"
+    },
+    {
+      "address": "0xEXTERNAL:00000021",
+      "name": "RtlInitUnicodeString",
+      "signature": "undefined RtlInitUnicodeString(void)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x140027d50",
+      "name": "FUN_140027d50",
+      "signature": "int __fastcall FUN_140027d50(longlong param_1)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\r\n\r\nundefined8 * FUN_140023438(undefined8 *param_1,longlong param_2)\r\n\r\n{\r\n  undefined8 *puVar1;\r\n  uint uVar2;\r\n  uint uVar3;\r\n  int iVar4;\r\n  undefined8 *puVar5;\r\n  undefined4 *puVar6;\r\n  void *_Dst;\r\n  ulonglong uVar7;\r\n  longlong lVar8;\r\n  void *pvVar9;\r\n  bool bVar10;\r\n  bool bVar11;\r\n  undefined1 auStackY_428 [32];\r\n  int local_3e8 [4];\r\n  undefined8 local_3d8;\r\n  undefined8 uStack_3d0;\r\n  undefined4 local_3c8;\r\n  undefined4 uStack_3c4;\r\n  undefined4 uStack_3c0;\r\n  undefined4 uStack_3bc;\r\n  undefined4 local_3b8;\r\n  undefined4 uStack_3b4;\r\n  undefined4 uStack_3b0;\r\n  undefined4 uStack_3ac;\r\n  undefined4 local_3a8;\r\n  undefined4 uStack_3a4;\r\n  undefined4 uStack_3a0;\r\n  undefined4 uStack_39c;\r\n  undefined4 local_398;\r\n  undefined4 uStack_394;\r\n  undefined4 uStack_390;\r\n  undefined4 uStack_38c;\r\n  undefined4 local_388;\r\n  undefined4 uStack_384;\r\n  uint local_378 [2];\r\n  undefined1 local_370 [24];\r\n  undefined4 local_358;\r\n  uint local_354;\r\n  uint local_350;\r\n  uint local_34c;\r\n  char local_23e;\r\n  undefined8 local_238 [64];\r\n  ulonglong local_38;\r\n  \r\n  local_38 \u003d DAT_1400698c0 ^ (ulonglong)auStackY_428;\r\n  FUN_140057e8c(param_1,(undefined8 *)0x0);\r\n  pvVar9 \u003d (void *)0x0;\r\n  *param_1 \u003d \u0026PTR_FUN_140060710;\r\n  param_1[3] \u003d \u0026PTR_FUN_1400606d0;\r\n  puVar5 \u003d param_1 + 0x1ce;\r\n  *(undefined4 *)((longlong)param_1 + 0xe6c) \u003d 0;\r\n  lVar8 \u003d 0x10;\r\n  do {\r\n    *puVar5 \u003d 0;\r\n    *(undefined4 *)(puVar5 + 1) \u003d 0;\r\n    puVar5 \u003d (undefined8 *)((longlong)puVar5 + 0xc);\r\n    lVar8 \u003d lVar8 + -1;\r\n  } while (lVar8 !\u003d 0);\r\n  *(undefined8 *)((longlong)param_1 + 0x1004) \u003d 0;\r\n  param_1[0x1fa] \u003d \u0026PTR_FUN_1400606f0;\r\n  param_1[0x1fd] \u003d \u0026PTR_FUN_140060700;\r\n  FUN_14004be84(param_1 + 0x210);\r\n  FUN_14004be84(param_1 + 0x297);\r\n  *(undefined4 *)(param_1 + 0x46b) \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x472) \u003d 0;\r\n  param_1[0x4db] \u003d param_2;\r\n  *(undefined4 *)((longlong)param_1 + 0x2394) \u003d 0xffff;\r\n  param_1[0x15e] \u003d 0;\r\n  param_1[0x15f] \u003d 0;\r\n  param_1[0x160] \u003d 0;\r\n  param_1[0x4e7] \u003d 0;\r\n  param_1[0x4e8] \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x4e9) \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x4dc) \u003d 1;\r\n  *(undefined4 *)(param_1 + 0x15b) \u003d 0x1e;\r\n  *(undefined4 *)((longlong)param_1 + 0xadc) \u003d 1;\r\n  param_1[0x4dd] \u003d *(undefined8 *)(param_2 + 0x20);\r\n  param_1[0x4de] \u003d *(undefined8 *)(param_2 + 0x18);\r\n  *(undefined4 *)((longlong)param_1 + 0x2394) \u003d 0;\r\n  *(uint *)(param_1 + 0x472) \u003d *(uint *)(param_1 + 0x472) | 0x4000;\r\n  *(uint *)(param_1 + 0x485) \u003d *(uint *)(param_1 + 0x485) | 0x400000;\r\n  *(uint *)((longlong)param_1 + 0x24f4) \u003d *(uint *)((longlong)param_1 + 0x24f4) | 0x2000000;\r\n  *(uint *)(param_1 + 0x498) \u003d *(uint *)(param_1 + 0x498) | 4;\r\n  *(uint *)((longlong)param_1 + 0x23b4) \u003d *(uint *)((longlong)param_1 + 0x23b4) | 0x400;\r\n  *(undefined4 *)(param_1 + 0x491) \u003d 0x14;\r\n  *(undefined4 *)(param_1 + 8) \u003d 0x21;\r\n  *(undefined8 *)((longlong)param_1 + 0x44) \u003d 0x38;\r\n  param_1[0x196] \u003d 0;\r\n  *(undefined1 *)(param_1 + 0x197) \u003d 0;\r\n  param_1[0x46c] \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x46b) \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x46d) \u003d 0;\r\n  *(undefined4 *)((longlong)param_1 + 0x4c) \u003d 1;\r\n  *(undefined4 *)((longlong)param_1 + 0x25a4) \u003d 1;\r\n  param_1[0x162] \u003d 0;\r\n  param_1[0x409] \u003d 0;\r\n  param_1[0x40a] \u003d 0;\r\n  param_1[0x40b] \u003d 0;\r\n  memset(param_1 + 0x3fc,0,0x68);\r\n  *(undefined4 *)(param_1 + 0x3fa) \u003d 5;\r\n  *(undefined4 *)((longlong)param_1 + 0x1fd4) \u003d 6;\r\n  *(undefined4 *)(param_1 + 0x3fb) \u003d 1;\r\n  *(undefined4 *)((longlong)param_1 + 0x1fdc) \u003d 2;\r\n  *(undefined4 *)((longlong)param_1 + 0xf4) \u003d 0x30000;\r\n  *(undefined4 *)(param_1 + 0x1e) \u003d 0x30000;\r\n  *(undefined4 *)(param_1 + 0x3f8) \u003d 1;\r\n  *(undefined4 *)(param_1 + 0x3f9) \u003d 0x18;\r\n  *(undefined4 *)((longlong)param_1 + 0x1fcc) \u003d 4;\r\n  *(undefined4 *)((longlong)param_1 + 0x1fc4) \u003d 48000;\r\n  *(undefined4 *)((longlong)param_1 + 0x26e4) \u003d 0;\r\n  *(undefined8 *)((longlong)param_1 + 0x274c) \u003d 0;\r\n  *(undefined4 *)((longlong)param_1 + 0x2754) \u003d 0;\r\n  param_1[0x40c] \u003d 0;\r\n  param_1[0x40d] \u003d 0;\r\n  puVar6 \u003d (undefined4 *)ExAllocatePoolWithTag(DAT_140075ba0,4,0x6f7368);\r\n  param_1[0x40e] \u003d puVar6;\r\n  *puVar6 \u003d 0;\r\n  param_1[0x40f] \u003d 0;\r\n  param_1[0x410] \u003d 0;\r\n  param_1[0x3f4] \u003d 0;\r\n  param_1[0x4e0] \u003d 0;\r\n  *(undefined4 *)((longlong)param_1 + 0x5c) \u003d 0xffff;\r\n  param_1[0x4e1] \u003d 0;\r\n  param_1[0x4e3] \u003d 0;\r\n  param_1[0x2a] \u003d 0;\r\n  param_1[0x2b] \u003d 0;\r\n  param_1[0x163] \u003d 0;\r\n  param_1[0x164] \u003d 0;\r\n  param_1[0x175] \u003d 0;\r\n  param_1[0x176] \u003d 0;\r\n  param_1[0x178] \u003d 0;\r\n  param_1[0x177] \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x17e) \u003d 0;\r\n  param_1[0x17b] \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x42e) \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x1a) \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x1c) \u003d 0;\r\n  *(undefined2 *)((longlong)param_1 + 0x26ac) \u003d 0;\r\n  _Dst \u003d (void *)ExAllocatePoolWithTag(DAT_140075ba0,0x600,0x6d457674);\r\n  if (_Dst !\u003d (void *)0x0) {\r\n    memset(_Dst,0,0x600);\r\n    *(undefined8 **)((longlong)_Dst + 0x5f0) \u003d param_1;\r\n    pvVar9 \u003d _Dst;\r\n  }\r\n  param_1[0x165] \u003d pvVar9;\r\n  KeInitializeMutex(param_1 + 0x166,0);\r\n  KeInitializeMutex(param_1 + 0x16d,0);\r\n  KeInitializeMutex(param_1 + 0x1a3,0);\r\n  KeInitializeMutex(param_1 + 0x1aa,0);\r\n  KeInitializeMutex(param_1 + 0x1b2,0);\r\n  KeInitializeMutex(param_1 + 0x1bb,0);\r\n  KeInitializeSpinLock(param_1 + 0x1b9);\r\n  KeInitializeSpinLock(param_1 + 0x1ba);\r\n  KeInitializeSpinLock(param_1 + 0x1b1);\r\n  puVar5 \u003d param_1 + 0x463;\r\n  RtlInitUnicodeString(puVar5,0);\r\n  RtlInitUnicodeString(param_1 + 0x465,u_rtUsbInterface_140067010);\r\n  RtlInitUnicodeString(param_1 + 0x467,u__rtUsbInterface_140067030);\r\n  puVar1 \u003d param_1 + 0x4bd;\r\n  RtlInitUnicodeString(puVar1,0);\r\n  RtlInitUnicodeString(param_1 + 0x4bf,u_rtUsbInterface4UI_140067050);\r\n  RtlInitUnicodeString(param_1 + 0x4c1,u__rtUsbInterface4UI_140067078);\r\n  RtlInitUnicodeString(param_1 + 0x4c3,0);\r\n  RtlInitUnicodeString(param_1 + 0x4c5,u_rtUsbInterfaceForForte_1400670a0);\r\n  RtlInitUnicodeString(param_1 + 0x4c7,u__rtUsbInterfaceForForte_1400670d0);\r\n  RtlInitUnicodeString(param_1 + 0x4c9,0);\r\n  RtlInitUnicodeString(param_1 + 0x4cb,u_rtUsbInterfaceForMBSkuFront_140067100);\r\n  RtlInitUnicodeString(param_1 + 0x4cd,u__rtUsbInterfaceForMBSkuFront_140067138);\r\n  RtlInitUnicodeString(param_1 + 0x4cf,0);\r\n  RtlInitUnicodeString(param_1 + 0x4d1,u_rtUsbInterfaceForMBSkuRear_140067178);\r\n  RtlInitUnicodeString(param_1 + 0x4d3);\r\n  local_3d8 \u003d 0x58;\r\n  uStack_3d0 \u003d 0;\r\n  local_3c8 \u003d 0x73647561;\r\n  uStack_3c4 \u003d 0x100000;\r\n  uStack_3c0 \u003d 0xaa000080;\r\n  uStack_3bc \u003d 0x719b3800;\r\n  param_1[0xd] \u003d 0x58;\r\n  param_1[0xe] \u003d 0;\r\n  uStack_394 \u003d 0x18;\r\n  param_1[0xf] \u003d 0x10000073647561;\r\n  param_1[0x10] \u003d 0x719b3800aa000080;\r\n  uStack_390 \u003d 0x18;\r\n  local_3b8 \u003d 1;\r\n  uStack_38c \u003d 48000;\r\n  local_388 \u003d 48000;\r\n  uStack_3b4 \u003d 0x100000;\r\n  uStack_3b0 \u003d 0xaa000080;\r\n  uStack_3ac \u003d 0x719b3800;\r\n  param_1[0x11] \u003d 0x10000000000001;\r\n  param_1[0x12] \u003d 0x719b3800aa000080;\r\n  local_3a8 \u003d 0x5589f81;\r\n  uStack_3a4 \u003d 0x11cec356;\r\n  uStack_3a0 \u003d 0xaa0001bf;\r\n  uStack_39c \u003d 0x5a595500;\r\n  param_1[0x13] \u003d 0x11cec35605589f81;\r\n  param_1[0x14] \u003d 0x5a595500aa0001bf;\r\n  local_398 \u003d 2;\r\n  param_1[0x15] \u003d 0x1800000002;\r\n  param_1[0x16] \u003d 0xbb8000000018;\r\n  param_1[0x17] \u003d CONCAT44(uStack_384,48000);\r\n  param_1[0x18] \u003d 0;\r\n  param_1[0x19] \u003d 0;\r\n  *(undefined2 *)((longlong)param_1 + 0x26fc) \u003d 0;\r\n  param_1[0x36b] \u003d 0;\r\n  param_1[0x36c] \u003d 0;\r\n  param_1[0x371] \u003d 0;\r\n  param_1[0x372] \u003d 0;\r\n  param_1[0x36f] \u003d 0;\r\n  param_1[0x370] \u003d 0;\r\n  memset(param_1 + 0x21,0,0x46);\r\n  param_1[0x3f5] \u003d 0;\r\n  param_1[0x3f6] \u003d 0;\r\n  *(undefined4 *)(param_1 + 0x200) \u003d 0;\r\n  param_1[0x3f7] \u003d 0;\r\n  param_1[0x368] \u003d 0;\r\n  param_1[0x369] \u003d 0;\r\n  param_1[0x36a] \u003d 0;\r\n  *(uint *)(param_1 + 0x470) \u003d *(uint *)(param_1 + 0x470) | 0x1000000;\r\n  *(uint *)((longlong)param_1 + 0x2384) \u003d *(uint *)((longlong)param_1 + 0x2384) \u0026 0xfdffffff;\r\n  RtlInitUnicodeString(param_1 + 0x1f,L\"Realtek USB Audio\");\r\n  RtlInitUnicodeString(local_370);\r\n  lVar8 \u003d MmGetSystemRoutineAddress(local_370);\r\n  if (lVar8 \u003d\u003d 0) goto LAB_140023c5c;\r\n  local_358 \u003d 0x11c;\r\n  memset(\u0026local_354,0,0x118);\r\n  (*(code *)PTR__guard_dispatch_icall_14005f458)(\u0026local_358);\r\n  uVar3 \u003d *(uint *)(param_1 + 0x46e);\r\n  if (local_23e !\u003d \u0027\\x01\u0027) {\r\n    uVar3 \u003d uVar3 | 1;\r\n  }\r\n  if (5 \u003c local_354) {\r\n    uVar3 \u003d uVar3 | 2;\r\n  }\r\n  if (((local_354 \u003d\u003d 6) \u0026\u0026 (local_350 !\u003d 0)) || (6 \u003c local_354)) {\r\n    uVar3 \u003d uVar3 | 4;\r\n  }\r\n  if (((local_354 \u003d\u003d 6) \u0026\u0026 (1 \u003c local_350)) || (6 \u003c local_354)) {\r\n    uVar3 \u003d uVar3 | 8;\r\n  }\r\n  if (((local_354 \u003d\u003d 6) \u0026\u0026 (2 \u003c local_350)) || (6 \u003c local_354)) {\r\n    uVar3 \u003d uVar3 | 0x10;\r\n  }\r\n  bVar10 \u003d local_354 \u003c 10;\r\n  bVar11 \u003d local_354 \u003d\u003d 10;\r\n  if (bVar11) {\r\n    if (local_350 !\u003d 0) {\r\n      bVar10 \u003d false;\r\n      bVar11 \u003d true;\r\n      goto LAB_140023b25;\r\n    }\r\nLAB_140023b27:\r\n    uVar2 \u003d uVar3 | 0x20;\r\n    if (0x295a \u003c local_34c) {\r\n      uVar2 \u003d uVar3 | 0x60;\r\n    }\r\n    uVar3 \u003d uVar2;\r\n    if (0x3839 \u003c local_34c) {\r\n      uVar3 \u003d uVar3 | 0x80;\r\n    }\r\n    if (0x47b9 \u003c local_34c) {\r\n      uVar3 \u003d uVar3 | 0x200;\r\n    }\r\n    if (21999 \u003c local_34c) {\r\n      uVar3 \u003d uVar3 | 0x400;\r\n    }\r\n  }\r\n  else {\r\nLAB_140023b25:\r\n    if (!bVar10 \u0026\u0026 !bVar11) goto LAB_140023b27;\r\n  }\r\n  *(uint *)(param_1 + 0x46e) \u003d uVar3 \u0026 0xfffff7ff;\r\n  if ((uVar3 \u0026 0x20) !\u003d 0) {\r\n    local_3e8[0] \u003d 0;\r\n    local_378[0] \u003d 4;\r\n    uVar7 \u003d FUN_14002db9c(param_1 + 0x469,0x14005b7c0,L\"Win10Cloud\",local_378,\r\n                          (undefined8 *)local_3e8,0,1);\r\n    if ((int)uVar7 \u003c 0) {\r\n      iVar4 \u003d FUN_140028fc8(param_1,L\"EditionID\",local_238,\r\n                            L\"\\\\Registry\\\\Machine\\\\SOFTWARE\\\\Microsoft\\\\Windows NT\\\\CurrentVersion\")\r\n      ;\r\n      if ((-1 \u003c iVar4) \u0026\u0026 (lVar8 \u003d RtlCompareMemory(local_238,L\"Cloud\",0xc), lVar8 \u003d\u003d 0xc)) {\r\n        local_3e8[0] \u003d 1;\r\n      }\r\n      FUN_140031bac(param_1 + 0x469,0x14005b7c0,L\"Win10Cloud\",4,4,local_3e8,0);\r\n    }\r\n    *(uint *)(param_1 + 0x46e) \u003d\r\n         *(uint *)(param_1 + 0x46e) ^ (local_3e8[0] \u003c\u003c 0xb ^ *(uint *)(param_1 + 0x46e)) \u0026 0x800;\r\n  }\r\nLAB_140023c5c:\r\n  KeInitializeEvent(param_1 + 0x4e4,0,0);\r\n  KeInitializeEvent(param_1 + 0x1a0,0,0);\r\n  iVar4 \u003d IoRegisterDeviceInterface(param_1[0x4dd],\u0026DAT_140060258,param_1 + 0x465,puVar5);\r\n  if (-1 \u003c iVar4) {\r\n    IoSetDeviceInterfaceState(puVar5,1);\r\n  }\r\n  iVar4 \u003d IoRegisterDeviceInterface(param_1[0x4dd],\u0026DAT_140060288,param_1 + 0x4bf,puVar1);\r\n  if (-1 \u003c iVar4) {\r\n    IoSetDeviceInterfaceState(puVar1,1);\r\n  }\r\n  *(undefined4 *)(param_1 + 0x4d6) \u003d 0;\r\n  *(undefined4 *)(param_1 + 6) \u003d 1;\r\n  return param_1;\r\n}\r\n\r\n"
+}

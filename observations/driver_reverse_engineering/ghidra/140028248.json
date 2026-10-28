@@ -1,0 +1,52 @@
+{
+  "address": "0x140028248",
+  "name": "FUN_140028248",
+  "signature": "undefined __fastcall FUN_140028248(longlong param_1, int param_2, uint param_3, undefined4 * param_4)",
+  "callees": [
+    {
+      "address": "0x140057e50",
+      "name": "__security_check_cookie",
+      "signature": "void __cdecl __security_check_cookie(uintptr_t _StackCookie)"
+    },
+    {
+      "address": "0x14002ff18",
+      "name": "FUN_14002ff18",
+      "signature": "int __fastcall FUN_14002ff18(longlong param_1, uint param_2, longlong param_3)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x140017e80",
+      "name": "FUN_140017e80",
+      "signature": "undefined __fastcall FUN_140017e80(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x140017430",
+      "name": "FUN_140017430",
+      "signature": "undefined4 __fastcall FUN_140017430(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x1400303ec",
+      "name": "FUN_1400303ec",
+      "signature": "undefined __fastcall FUN_1400303ec(longlong param_1, int param_2, uint param_3, uint param_4, uint param_5)"
+    },
+    {
+      "address": "0x1400176d0",
+      "name": "FUN_1400176d0",
+      "signature": "undefined8 * __fastcall FUN_1400176d0(undefined8 * param_1, longlong param_2)"
+    },
+    {
+      "address": "0x1400256a0",
+      "name": "FUN_1400256a0",
+      "signature": "undefined __fastcall FUN_1400256a0(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x140017524",
+      "name": "FUN_140017524",
+      "signature": "int __fastcall FUN_140017524(longlong param_1, int param_2, short * param_3)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\r\n\r\nvoid FUN_140028248(longlong param_1,int param_2,uint param_3,undefined4 *param_4)\r\n\r\n{\r\n  undefined1 auStack_58 [32];\r\n  uint local_38 [4];\r\n  uint local_28;\r\n  undefined4 local_20;\r\n  ulonglong local_18;\r\n  \r\n  local_18 \u003d DAT_1400698c0 ^ (ulonglong)auStack_58;\r\n  local_28 \u003d param_2 \u003c\u003c 0x14 | 0xc0000;\r\n  local_38[0] \u003d param_2 \u003c\u003c 0x14 | param_3 | 0x50000;\r\n  FUN_14002ff18(param_1,2,(longlong)local_38);\r\n  *param_4 \u003d local_20;\r\n  return;\r\n}\r\n\r\n"
+}

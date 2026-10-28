@@ -1,0 +1,52 @@
+{
+  "address": "0x14003281c",
+  "name": "FUN_14003281c",
+  "signature": "undefined __fastcall FUN_14003281c(longlong param_1, longlong param_2)",
+  "callees": [
+    {
+      "address": "0x140020e64",
+      "name": "FUN_140020e64",
+      "signature": "undefined __fastcall FUN_140020e64(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x14002821c",
+      "name": "FUN_14002821c",
+      "signature": "longlong __fastcall FUN_14002821c(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x14002ebb0",
+      "name": "FUN_14002ebb0",
+      "signature": "undefined __fastcall FUN_14002ebb0(longlong param_1, undefined2 param_2, undefined8 param_3)"
+    },
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x1400209c8",
+      "name": "FUN_1400209c8",
+      "signature": "undefined __fastcall FUN_1400209c8(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140029c00",
+      "name": "FUN_140029c00",
+      "signature": "undefined __fastcall FUN_140029c00(longlong param_1)"
+    },
+    {
+      "address": "0x140030838",
+      "name": "FUN_140030838",
+      "signature": "undefined __fastcall FUN_140030838(longlong param_1, longlong param_2, undefined8 param_3, int param_4, int param_5)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_14003281c(longlong param_1,longlong param_2)\r\n\r\n{\r\n  longlong lVar1;\r\n  undefined4 uVar2;\r\n  uint uVar3;\r\n  char local_res10 [8];\r\n  \r\n  if (param_2 !\u003d 0) {\r\n    local_res10[0] \u003d \u0027\\0\u0027;\r\n    FUN_14002ebb0(param_2,0x2308,local_res10);\r\n    if ((byte)(local_res10[0] - 1U) \u003c 3) {\r\n      uVar3 \u003d 0;\r\n      if (local_res10[0] \u003d\u003d \u0027\\x01\u0027) {\r\n        uVar3 \u003d 0xf;\r\n        uVar2 \u003d 2;\r\n      }\r\n      else if (local_res10[0] \u003d\u003d \u0027\\x02\u0027) {\r\n        uVar3 \u003d 1;\r\n        uVar2 \u003d 1;\r\n      }\r\n      else {\r\n        uVar2 \u003d 0;\r\n        if (local_res10[0] \u003d\u003d \u0027\\x03\u0027) {\r\n          uVar3 \u003d 1;\r\n          uVar2 \u003d 0;\r\n        }\r\n      }\r\n      *(undefined4 *)(param_2 + 0x3c) \u003d uVar2;\r\n      lVar1 \u003d FUN_14002821c(param_1,0x18);\r\n      if (lVar1 !\u003d 0) {\r\n        FUN_14005470c(lVar1,uVar3);\r\n      }\r\n      if (*(longlong *)(param_2 + 0xb28) !\u003d 0) {\r\n        FUN_140020e64(*(longlong *)(param_2 + 0xb28),0x1d);\r\n      }\r\n    }\r\n    else if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n            ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n      FUN_1400209c8(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0xb,\u0026DAT_1400602c8,\r\n                    \"CCommon::updateMicSelection\");\r\n    }\r\n  }\r\n  return;\r\n}\r\n\r\n"
+}

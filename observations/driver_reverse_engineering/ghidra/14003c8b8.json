@@ -1,0 +1,21 @@
+{
+  "address": "0x14003c8b8",
+  "name": "FUN_14003c8b8",
+  "signature": "undefined __fastcall FUN_14003c8b8(longlong param_1, int param_2)",
+  "callees": [],
+  "callers": [
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x14003c95c",
+      "name": "FUN_14003c95c",
+      "signature": "undefined __fastcall FUN_14003c95c(longlong param_1, int param_2)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_14003c8b8(longlong param_1,int param_2)\r\n\r\n{\r\n  byte bVar1;\r\n  uint uVar2;\r\n  \r\n  uVar2 \u003d 0;\r\n  if (*(int *)(param_1 + 0x328) \u003d\u003d 0) {\r\n    return;\r\n  }\r\n  if (*(int *)(param_1 + 0x2e8) \u003d\u003d 0) {\r\n    return;\r\n  }\r\n  *(undefined4 *)(param_1 + 0x25c) \u003d 0;\r\n  if (param_2 \u003d\u003d 4) {\r\n    uVar2 \u003d 0x2000200;\r\n  }\r\n  else {\r\n    if (param_2 !\u003d 6) {\r\n      if (param_2 \u003d\u003d 7) {\r\n        uVar2 \u003d 0xc000000;\r\n        goto LAB_14003c909;\r\n      }\r\n      if (param_2 !\u003d 8) goto LAB_14003c910;\r\n    }\r\n    uVar2 \u003d 0x8000001;\r\n  }\r\nLAB_14003c909:\r\n  *(uint *)(param_1 + 0x25c) \u003d uVar2;\r\nLAB_14003c910:\r\n  bVar1 \u003d *(byte *)(**(longlong **)(param_1 + 0x2f0) + 0x33) \u0026 0xf;\r\n  if ((bVar1 !\u003d 1) \u0026\u0026 (bVar1 \u003d\u003d 2)) {\r\n    uVar2 \u003d uVar2 | 2;\r\n  }\r\n  uVar2 \u003d (*(uint *)(param_1 + 0x32c) \u0026 1) \u003c\u003c 6 | uVar2;\r\n  *(uint *)(param_1 + 0x25c) \u003d uVar2;\r\n  *(uint *)(param_1 + 0x25c) \u003d\r\n       *(uint *)(**(longlong **)(param_1 + 0x2f0) + 0x30) \u003e\u003e 10 \u0026 0x3c | uVar2;\r\n  return;\r\n}\r\n\r\n"
+}

@@ -1,0 +1,187 @@
+{
+  "address": "0x14005470c",
+  "name": "FUN_14005470c",
+  "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)",
+  "callees": [
+    {
+      "address": "0x140052e2c",
+      "name": "FUN_140052e2c",
+      "signature": "undefined8 __fastcall FUN_140052e2c(longlong param_1, char param_2)"
+    },
+    {
+      "address": "0x14003a308",
+      "name": "FUN_14003a308",
+      "signature": "ulonglong __fastcall FUN_14003a308(short * param_1, int param_2, int param_3)"
+    },
+    {
+      "address": "0x1400395d8",
+      "name": "FUN_1400395d8",
+      "signature": "int __fastcall FUN_1400395d8(short * param_1)"
+    },
+    {
+      "address": "0x14003a6d8",
+      "name": "FUN_14003a6d8",
+      "signature": "undefined __fastcall FUN_14003a6d8(short * param_1)"
+    },
+    {
+      "address": "0x14002821c",
+      "name": "FUN_14002821c",
+      "signature": "longlong __fastcall FUN_14002821c(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x14003ccf0",
+      "name": "FUN_14003ccf0",
+      "signature": "longlong __fastcall FUN_14003ccf0(longlong param_1)"
+    },
+    {
+      "address": "0x14005627c",
+      "name": "FUN_14005627c",
+      "signature": "wchar_t * __fastcall FUN_14005627c(undefined8 param_1, uint param_2)"
+    },
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x14003c95c",
+      "name": "FUN_14003c95c",
+      "signature": "undefined __fastcall FUN_14003c95c(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x14003c72c",
+      "name": "FUN_14003c72c",
+      "signature": "undefined4 __fastcall FUN_14003c72c(longlong param_1)"
+    },
+    {
+      "address": "0x140059b50",
+      "name": "_guard_dispatch_icall",
+      "signature": "undefined __fastcall _guard_dispatch_icall(void)"
+    },
+    {
+      "address": "0x14003c4e0",
+      "name": "FUN_14003c4e0",
+      "signature": "undefined __fastcall FUN_14003c4e0(short * param_1, int param_2, short * param_3, uint param_4)"
+    },
+    {
+      "address": "0x14003c4a8",
+      "name": "FUN_14003c4a8",
+      "signature": "undefined __fastcall FUN_14003c4a8(short * param_1, int param_2, short * param_3, uint param_4)"
+    },
+    {
+      "address": "0x14003a868",
+      "name": "FUN_14003a868",
+      "signature": "int __fastcall FUN_14003a868(short * param_1)"
+    },
+    {
+      "address": "0x14004cc3c",
+      "name": "FUN_14004cc3c",
+      "signature": "undefined __fastcall FUN_14004cc3c(longlong * param_1, uint param_2, undefined4 param_3)"
+    },
+    {
+      "address": "0x140055f90",
+      "name": "FUN_140055f90",
+      "signature": "undefined __fastcall FUN_140055f90(undefined8 param_1, uint * param_2, uint param_3)"
+    },
+    {
+      "address": "0x140020e64",
+      "name": "FUN_140020e64",
+      "signature": "undefined __fastcall FUN_140020e64(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x140055b90",
+      "name": "FUN_140055b90",
+      "signature": "undefined __fastcall FUN_140055b90(int * param_1)"
+    },
+    {
+      "address": "0x140056bd0",
+      "name": "FUN_140056bd0",
+      "signature": "undefined __fastcall FUN_140056bd0(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4)"
+    },
+    {
+      "address": "0x140055990",
+      "name": "FUN_140055990",
+      "signature": "undefined __fastcall FUN_140055990(longlong param_1)"
+    },
+    {
+      "address": "0x140056e80",
+      "name": "FUN_140056e80",
+      "signature": "undefined __fastcall FUN_140056e80(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4)"
+    },
+    {
+      "address": "0x140052368",
+      "name": "FUN_140052368",
+      "signature": "undefined __fastcall FUN_140052368(longlong param_1, undefined1 param_2)"
+    },
+    {
+      "address": "0x1400560ec",
+      "name": "FUN_1400560ec",
+      "signature": "wchar_t * __fastcall FUN_1400560ec(undefined8 param_1, uint param_2)"
+    },
+    {
+      "address": "0x14003a624",
+      "name": "FUN_14003a624",
+      "signature": "wchar_t * __fastcall FUN_14003a624(undefined8 param_1, int param_2)"
+    },
+    {
+      "address": "0x140056d10",
+      "name": "FUN_140056d10",
+      "signature": "undefined __fastcall FUN_140056d10(undefined8 param_1, undefined2 param_2, undefined8 param_3, undefined * param_4)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x14002cbb4",
+      "name": "FUN_14002cbb4",
+      "signature": "NTSTATUS __fastcall FUN_14002cbb4(undefined8 param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140030838",
+      "name": "FUN_140030838",
+      "signature": "undefined __fastcall FUN_140030838(longlong param_1, longlong param_2, undefined8 param_3, int param_4, int param_5)"
+    },
+    {
+      "address": "0x1400256a0",
+      "name": "FUN_1400256a0",
+      "signature": "undefined __fastcall FUN_1400256a0(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x14003281c",
+      "name": "FUN_14003281c",
+      "signature": "undefined __fastcall FUN_14003281c(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x14004e354",
+      "name": "FUN_14004e354",
+      "signature": "undefined8 __fastcall FUN_14004e354(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x140053be0",
+      "name": "FUN_140053be0",
+      "signature": "undefined4 * __fastcall FUN_140053be0(undefined4 * param_1, longlong param_2, uint * param_3, int param_4)"
+    },
+    {
+      "address": "0x1400325f4",
+      "name": "FUN_1400325f4",
+      "signature": "undefined __fastcall FUN_1400325f4(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140032924",
+      "name": "FUN_140032924",
+      "signature": "undefined __fastcall FUN_140032924(longlong param_1)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nuint FUN_14005470c(longlong param_1,uint param_2)\r\n\r\n{\r\n  ushort *puVar1;\r\n  short sVar2;\r\n  int iVar3;\r\n  longlong lVar4;\r\n  byte bVar5;\r\n  bool bVar6;\r\n  bool bVar7;\r\n  bool bVar8;\r\n  undefined *puVar9;\r\n  uint uVar10;\r\n  longlong lVar11;\r\n  int *piVar12;\r\n  uint uVar13;\r\n  undefined1 uVar14;\r\n  int iVar15;\r\n  uint unaff_EBP;\r\n  uint uVar16;\r\n  uint uVar17;\r\n  bool bVar18;\r\n  int local_res8 [2];\r\n  uint local_58;\r\n  short local_54 [2];\r\n  int local_50;\r\n  uint local_4c;\r\n  int local_48;\r\n  \r\n  puVar9 \u003d PTR_LOOP_140067000;\r\n  if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n     ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 8) !\u003d 0)) {\r\n    uVar13 \u003d *(uint *)(param_1 + 0x10);\r\n    FUN_1400560ec(param_1,*(uint *)(param_1 + 0x20));\r\n    FUN_1400560ec(param_1,param_2);\r\n    FUN_14005627c(param_1,uVar13);\r\n    FUN_140056e80(*(undefined8 *)(puVar9 + 0x18),10,\u0026DAT_140061398,\"CWidget::AssignDeviceType\");\r\n  }\r\n  lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n  if ((param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe10)) \u0026\u0026 ((*(uint *)(lVar11 + 0x2380) \u0026 0x4020000) !\u003d 0))\r\n  {\r\n    param_2 \u003d 0x32;\r\n  }\r\n  uVar13 \u003d *(uint *)(lVar11 + 0x2384);\r\n  bVar18 \u003d false;\r\n  if ((uVar13 \u003e\u003e 0x13 \u0026 1) !\u003d 0) {\r\n    lVar4 \u003d *(longlong *)(lVar11 + 0xe28);\r\n    if ((((lVar4 !\u003d 0) \u0026\u0026 (param_1 !\u003d lVar4)) \u0026\u0026 (*(int *)(lVar4 + 0x20) \u003d\u003d 0)) \u0026\u0026\r\n       (bVar18 \u003d false, (*(byte *)(lVar4 + 0x4c) \u0026 2) !\u003d 0)) {\r\n      bVar18 \u003d true;\r\n    }\r\n    lVar4 \u003d *(longlong *)(lVar11 + 0xe30);\r\n    if (((lVar4 !\u003d 0) \u0026\u0026 (param_1 !\u003d lVar4)) \u0026\u0026\r\n       ((*(int *)(lVar4 + 0x20) \u003d\u003d 0 \u0026\u0026 ((*(byte *)(lVar4 + 0x4c) \u0026 2) !\u003d 0)))) {\r\n      bVar18 \u003d true;\r\n    }\r\n    if (((uVar13 \u003e\u003e 0x14 \u0026 1) \u003d\u003d 0) \u0026\u0026 (*(int *)(param_1 + 0x10) \u003d\u003d 0x18)) {\r\n      uVar13 \u003d *(uint *)(param_1 + 0x3c) \u0026 0xffafffff | 0xa00000;\r\n      *(uint *)(param_1 + 0x3c) \u003d uVar13;\r\n      *(ushort *)(param_1 + 0x4c) \u003d\r\n           *(ushort *)(param_1 + 0x4c) ^\r\n           ((ushort)(uVar13 \u003e\u003e 0x10) \u0026 0xfff0 ^ *(ushort *)(param_1 + 0x4c)) \u0026 0xf0;\r\n      return unaff_EBP;\r\n    }\r\n  }\r\n  uVar10 \u003d 0;\r\n  local_50 \u003d 0;\r\n  bVar6 \u003d false;\r\n  bVar8 \u003d false;\r\n  local_res8[0] \u003d 0;\r\n  uVar17 \u003d 0;\r\n  uVar16 \u003d *(uint *)(*(longlong *)(param_1 + 0x18) + 0x2d8);\r\n  bVar7 \u003d false;\r\n  local_4c \u003d 0;\r\n  local_48 \u003d 0;\r\n  if (((uVar13 \u003e\u003e 0x16 \u0026 1) !\u003d 0) \u0026\u0026 (*(int *)(param_1 + 0x10) \u003d\u003d 0x1f)) {\r\n    if ((param_2 \u003d\u003d 0x32) || (param_2 \u003d\u003d 0x20)) {\r\n      *(undefined4 *)(param_1 + 0x20) \u003d 0x32;\r\n      if (*(longlong *)(lVar11 + 0xe20) !\u003d 0) {\r\n        puVar1 \u003d (ushort *)(*(longlong *)(lVar11 + 0xe20) + 0x4c);\r\n        *puVar1 \u003d *puVar1 | 2;\r\n        lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n        lVar4 \u003d *(longlong *)(*(longlong *)(lVar11 + 0xe20) + 0x18);\r\n        if (lVar4 !\u003d 0) {\r\n          FUN_14003ccf0(lVar4);\r\n          lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n        }\r\n      }\r\n      uVar10 \u003d 1;\r\n      FUN_140052e2c(lVar11,\u0027\\x02\u0027);\r\n      param_2 \u003d 0x32;\r\n    }\r\n    else if (param_2 \u003d\u003d 2) {\r\n      *(undefined4 *)(param_1 + 0x20) \u003d 2;\r\n      if (*(longlong *)(lVar11 + 0xe20) !\u003d 0) {\r\n        puVar1 \u003d (ushort *)(*(longlong *)(lVar11 + 0xe20) + 0x4c);\r\n        *puVar1 \u003d *puVar1 | 2;\r\n        lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n        lVar4 \u003d *(longlong *)(*(longlong *)(lVar11 + 0xe20) + 0x18);\r\n        if (lVar4 !\u003d 0) {\r\n          FUN_14003ccf0(lVar4);\r\n          lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n        }\r\n      }\r\n      FUN_140052e2c(lVar11,\u0027\\x01\u0027);\r\n      return unaff_EBP;\r\n    }\r\n  }\r\n  lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n  uVar13 \u003d 1;\r\n  if (*(int *)(lVar11 + 0x26b0) \u003d\u003d 5) {\r\n    if (*(int *)(*(longlong *)(param_1 + 0x18) + 0x32c) \u003d\u003d 0) {\r\n      if (((param_2 !\u003d 0) \u0026\u0026 (param_2 !\u003d 1)) \u0026\u0026 (param_2 !\u003d 0x21)) goto LAB_1400549e1;\r\n    }\r\n    else if (((param_2 \u003d\u003d 0) || (param_2 \u003d\u003d 1)) || (param_2 \u003d\u003d 0x21)) {\r\nLAB_1400549e1:\r\n      local_50 \u003d 1;\r\n    }\r\n  }\r\n  local_58 \u003d 0;\r\n  local_54[0] \u003d 0;\r\n  local_54[1] \u003d 0;\r\n  if (param_2 \u003c 0x22) {\r\n    if (param_2 \u003d\u003d 0x21) {\r\n      uVar16 \u003d 10;\r\n      if ((*(byte *)(param_1 + 0x4e) \u0026 2) !\u003d 0) {\r\nLAB_140054d0e:\r\n        uVar10 \u003d uVar13;\r\n      }\r\n    }\r\n    else if (param_2 \u003c 6) {\r\n      if (param_2 \u003d\u003d 5) {\r\n        bVar7 \u003d false;\r\n        if (((*(uint *)(lVar11 + 0x2384) \u0026 0x100000) !\u003d 0) \u0026\u0026\r\n           (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe48))) {\r\n          FUN_140052368(lVar11,0xc);\r\n          lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n          uVar10 \u003d 1;\r\n          local_res8[0] \u003d 1;\r\n          bVar7 \u003d true;\r\n        }\r\n        if (((*(uint *)(lVar11 + 0x2388) \u0026 1) !\u003d 0) \u0026\u0026 (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe48))) {\r\n          FUN_140052368(lVar11,1);\r\n          FUN_140052368(*(longlong *)(param_1 + 0x28),0xc);\r\n          if ((*(int *)(*(longlong *)(param_1 + 0x28) + 0x26b4) \u003d\u003d 0x85) ||\r\n             (*(short *)(*(longlong *)(param_1 + 0x28) + 0x26a8) \u003d\u003d 0x1b9b)) {\r\n            local_res8[0] \u003d 0;\r\n            bVar6 \u003d true;\r\n          }\r\n          else {\r\n            local_res8[0] \u003d 1;\r\n          }\r\n          uVar10 \u003d 1;\r\n          bVar8 \u003d true;\r\n        }\r\n      }\r\n      else {\r\n        if (param_2 \u003d\u003d 0) {\r\n          uVar16 \u003d 7;\r\n          if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe40)) {\r\n            FUN_140052368(lVar11,3);\r\n            *(undefined4 *)(*(longlong *)(param_1 + 0x28) + 0x48) \u003d 0;\r\n          }\r\n          else if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe48)) {\r\n            FUN_140052368(lVar11,(*(uint *)(lVar11 + 0x2384) \u0026 0x80400) !\u003d 0x80400);\r\n            if (((*(uint *)(*(longlong *)(param_1 + 0x28) + 0x2384) \u0026 0x100000) !\u003d 0) ||\r\n               (iVar15 \u003d *(int *)(*(longlong *)(param_1 + 0x28) + 0x26b4),\r\n               iVar15 \u003d\u003d 0x84 || iVar15 \u003d\u003d 0x85)) {\r\n              bVar7 \u003d true;\r\n            }\r\n          }\r\n          else if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe58)) {\r\n            if (*(uint *)(param_1 + 0x20) \u003c 2) {\r\n              uVar14 \u003d 0x12;\r\n            }\r\n            else {\r\n              if (*(uint *)(param_1 + 0x20) !\u003d 6) goto LAB_140054c16;\r\n              uVar14 \u003d 0x15;\r\n            }\r\n            FUN_140052368(lVar11,uVar14);\r\n          }\r\nLAB_140054c16:\r\n          bVar5 \u003d *(byte *)(param_1 + 0x4e) \u0026 1;\r\n        }\r\n        else {\r\n          if (param_2 !\u003d 1) {\r\n            if (param_2 \u003d\u003d 2) goto LAB_140055169;\r\n            if ((param_2 \u003d\u003d 3) || (param_2 \u003d\u003d 4)) goto LAB_140055096;\r\n            goto LAB_140054ecf;\r\n          }\r\n          iVar15 \u003d *(int *)(lVar11 + 0x26b0);\r\n          if (((iVar15 \u003d\u003d 0x34) || (iVar15 \u003d\u003d 0x92)) || ((iVar15 \u003d\u003d 0xb3 || (iVar15 \u003d\u003d 0xb4)))) {\r\n            iVar15 \u003d *(int *)(param_1 + 0x10);\r\n            if (iVar15 \u003d\u003d 0x18) {\r\nLAB_140054ab8:\r\n              uVar16 \u003d 6;\r\n            }\r\n            else if (iVar15 \u003d\u003d 0x19) {\r\n              if (*(int *)(lVar11 + 0x26b4) - 0x84U \u003c 2) goto LAB_140054ab8;\r\n            }\r\n            else if (iVar15 \u003d\u003d 0x38) {\r\n              uVar16 \u003d 8;\r\n            }\r\n            else if (iVar15 \u003d\u003d 0x39) {\r\n              uVar16 \u003d 0xb;\r\n            }\r\n          }\r\n          else {\r\n            uVar16 \u003d (-(uint)((*(uint *)(lVar11 + 0x2384) \u0026 0x100000) !\u003d 0) \u0026 2) + 6;\r\n            if (bVar18) {\r\n              uVar16 \u003d 7;\r\n            }\r\n          }\r\n          if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe48)) {\r\n            FUN_140052368(lVar11,0);\r\n            if (*(int *)(param_1 + 0x20) \u003d\u003d 5) {\r\n              FUN_140052368(*(longlong *)(param_1 + 0x28),0xd);\r\n            }\r\n            if (((*(uint *)(*(longlong *)(param_1 + 0x28) + 0x2384) \u0026 0x100000) !\u003d 0) ||\r\n               (*(int *)(*(longlong *)(param_1 + 0x28) + 0x26b4) - 0x84U \u003c 2)) {\r\n              bVar7 \u003d true;\r\n            }\r\n          }\r\n          else if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe60)) {\r\n            FUN_140052368(lVar11,0xf);\r\n            local_4c \u003d *(uint *)(*(longlong *)(param_1 + 0x28) + 0x2384) \u003e\u003e 0x14 \u0026 1;\r\n            uVar17 \u003d *(uint *)(*(longlong *)(param_1 + 0x28) + 0x2388) \u0026 1;\r\n          }\r\n          else if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe58)) {\r\n            if (*(int *)(param_1 + 0x20) \u003d\u003d 6) {\r\n              FUN_140052368(lVar11,0x15);\r\n              lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n            }\r\n            FUN_140052368(lVar11,0x13);\r\n            uVar17 \u003d 0;\r\n            if ((*(byte *)(*(longlong *)(param_1 + 0x28) + 0x2388) \u0026 1) !\u003d 0) {\r\n              uVar17 \u003d 1;\r\n            }\r\n          }\r\n          bVar5 \u003d *(byte *)(param_1 + 0x4e) \u0026 2;\r\n        }\r\n        bVar8 \u003d bVar7;\r\n        if (bVar5 !\u003d 0) {\r\n          uVar10 \u003d 1;\r\n        }\r\n      }\r\n    }\r\n    else if (param_2 \u003d\u003d 6) {\r\n      if ((*(uint *)(lVar11 + 0x2384) \u0026 0x100000) \u003d\u003d 0) {\r\n        if ((*(uint *)(lVar11 + 0x2388) \u0026 1) !\u003d 0) {\r\n          if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe60)) {\r\n            FUN_140052368(lVar11,0xe);\r\nLAB_140054e26:\r\n            local_res8[0] \u003d 1;\r\n          }\r\n          else {\r\n            if (param_1 !\u003d *(longlong *)(lVar11 + 0xe58)) goto LAB_140054ecf;\r\n            if (*(int *)(param_1 + 0x20) \u003d\u003d 1) {\r\n              FUN_140052368(lVar11,0x12);\r\n              lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n            }\r\n            FUN_140052368(lVar11,0x14);\r\n            if ((*(int *)(*(longlong *)(param_1 + 0x28) + 0x26b4) !\u003d 0x85) \u0026\u0026\r\n               (*(short *)(*(longlong *)(param_1 + 0x28) + 0x26a8) !\u003d 0x1b9b)) goto LAB_140054e26;\r\n            local_res8[0] \u003d 0;\r\n            bVar6 \u003d true;\r\n          }\r\n          uVar17 \u003d 1;\r\n          uVar10 \u003d 1;\r\n        }\r\n      }\r\n      else {\r\n        bVar18 \u003d param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe60);\r\n        if (bVar18) {\r\n          FUN_140052368(lVar11,0xe);\r\n          uVar10 \u003d 1;\r\n          local_res8[0] \u003d 1;\r\n        }\r\n        local_4c \u003d (uint)bVar18;\r\n      }\r\n    }\r\n    else {\r\n      if (param_2 !\u003d 7) {\r\n        if (param_2 \u003d\u003d 0xf) {\r\n          uVar16 \u003d 8;\r\n          goto LAB_140054d0e;\r\n        }\r\n        if (param_2 !\u003d 0x20) goto LAB_140054ecf;\r\n        goto LAB_140054eaa;\r\n      }\r\n      if ((*(uint *)(lVar11 + 0x2384) \u0026 0x400) !\u003d 0) {\r\n        bVar6 \u003d true;\r\n        if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe40)) {\r\n          FUN_140052368(lVar11,2);\r\n          *(undefined4 *)(*(longlong *)(param_1 + 0x28) + 0x48) \u003d 1;\r\n          lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n        }\r\n        uVar10 \u003d uVar13;\r\n        if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe50)) {\r\n          FUN_140052368(lVar11,0x11);\r\n          local_48 \u003d 1;\r\n          uVar10 \u003d 1;\r\n        }\r\n      }\r\n    }\r\n  }\r\n  else if ((param_2 \u003d\u003d 0x22) || (param_2 \u003d\u003d 0x23)) {\r\nLAB_140054e99:\r\n    local_58 \u003d (uint)(param_2 \u003d\u003d 0x105);\r\nLAB_140054eaa:\r\n    local_54[0] \u003d 1;\r\n    local_54[1] \u003d 0;\r\n    if (((*(ushort *)(param_1 + 0x4e) \u003e\u003e 0xc \u0026 1) !\u003d 0) \u0026\u0026\r\n       (uVar10 \u003d uVar13, *(longlong *)(lVar11 + 0xe10) \u003d\u003d param_1)) {\r\n      uVar16 \u003d 0;\r\n    }\r\n    if (*(int *)(lVar11 + 0x26b0) \u003d\u003d 5) {\r\n      uVar16 \u003d 0;\r\n    }\r\n  }\r\n  else if (param_2 \u003d\u003d 0x24) {\r\n    if ((*(uint *)(lVar11 + 0x2384) \u0026 0x400) !\u003d 0) {\r\n      uVar16 \u003d 0xb;\r\n    }\r\n  }\r\n  else {\r\n    if ((param_2 \u003d\u003d 0x32) || (param_2 \u003d\u003d 0x33)) goto LAB_140054e99;\r\n    if (param_2 \u003d\u003d 0x100) {\r\n      uVar10 \u003d uVar13;\r\n      if (((*(uint *)(lVar11 + 0x2384) \u0026 0x80400) \u003d\u003d 0x80400) \u0026\u0026\r\n         (uVar10 \u003d 1, *(int *)(param_1 + 0x10) \u003d\u003d 0x38)) {\r\n        uVar16 \u003d 6;\r\n      }\r\n    }\r\n    else if (param_2 \u003d\u003d 0x103) {\r\n      local_58 \u003d 1;\r\nLAB_140055169:\r\n      local_54[0] \u003d 1;\r\n      local_54[1] \u003d 0;\r\n      if ((*(byte *)(param_1 + 0x4e) \u0026 4) !\u003d 0) {\r\n        if ((*(longlong *)(lVar11 + 0xe10) \u003d\u003d param_1) \u0026\u0026\r\n           (((uVar16 \u003d 0, *(int *)(lVar11 + 0x26b0) \u003d\u003d 0x2d ||\r\n             (*(short *)(lVar11 + 0x26a8) \u003d\u003d 0x1571)) \u0026\u0026 (*(longlong *)(lVar11 + 0xe18) !\u003d 0)))) {\r\n          puVar1 \u003d (ushort *)(*(longlong *)(lVar11 + 0xe18) + 0x4c);\r\n          *puVar1 \u003d *puVar1 \u0026 0xfffd;\r\n          FUN_14003ccf0(*(longlong *)(*(longlong *)(*(longlong *)(param_1 + 0x28) + 0xe18) + 0x18));\r\n        }\r\n        uVar10 \u003d 1;\r\n      }\r\n      lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n      uVar13 \u003d 0;\r\n      if (*(int *)(lVar11 + 0x26b0) !\u003d 5) {\r\n        uVar13 \u003d uVar16;\r\n      }\r\n      uVar16 \u003d uVar13;\r\n      if ((param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe18)) \u0026\u0026\r\n         ((*(uint *)(lVar11 + 0x24c0) \u0026 0x100000) !\u003d 0)) {\r\n        uVar16 \u003d 6;\r\n        uVar10 \u003d 1;\r\n      }\r\n      if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe50)) {\r\n        FUN_140052368(lVar11,0x10);\r\n        local_48 \u003d 1;\r\n      }\r\n    }\r\n    else if (param_2 \u003d\u003d 0x104) {\r\n      local_58 \u003d 2;\r\nLAB_140055096:\r\n      if ((*(byte *)(param_1 + 0x4e) \u0026 0x10) !\u003d 0) {\r\n        if ((*(longlong *)(lVar11 + 0xe10) \u003d\u003d param_1) \u0026\u0026\r\n           (((uVar16 \u003d uVar13, *(int *)(lVar11 + 0x26b0) \u003d\u003d 0x2d ||\r\n             (*(short *)(lVar11 + 0x26a8) \u003d\u003d 0x1571)) \u0026\u0026 (*(longlong *)(lVar11 + 0xe18) !\u003d 0)))) {\r\n          puVar1 \u003d (ushort *)(*(longlong *)(lVar11 + 0xe18) + 0x4c);\r\n          *puVar1 \u003d *puVar1 \u0026 0xfffd;\r\n          FUN_14003ccf0(*(longlong *)(*(longlong *)(*(longlong *)(param_1 + 0x28) + 0xe18) + 0x18));\r\n          lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n          uVar16 \u003d 1;\r\n        }\r\n        uVar10 \u003d 1;\r\n        if (((*(uint *)(lVar11 + 0x2384) \u0026 0x40000) !\u003d 0) \u0026\u0026\r\n           ((((*(int *)(lVar11 + 0x26b4) - 0xc9U \u003c 2 || (*(int *)(lVar11 + 0x26b4) \u003d\u003d 0x85)) ||\r\n             (*(short *)(lVar11 + 0x26a8) \u003d\u003d 0x1b9b)) \u0026\u0026 ((*(uint *)(lVar11 + 0x2388) \u0026 4) \u003d\u003d 0))))\r\n        {\r\n          uVar16 \u003d 2 - ((*(uint *)(lVar11 + 0x2394) \u0026 0x100) !\u003d 0);\r\n        }\r\n      }\r\n      if (*(int *)(lVar11 + 0x26b0) \u003d\u003d 5) {\r\n        uVar16 \u003d 1;\r\n      }\r\n    }\r\n    else if (param_2 \u003d\u003d 0x105) goto LAB_140054e99;\r\n  }\r\nLAB_140054ecf:\r\n  if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n     ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 4) !\u003d 0)) {\r\n    FUN_14003a624(*(undefined8 *)(param_1 + 0x18),uVar16);\r\n    FUN_140056d10(*(undefined8 *)(PTR_LOOP_140067000 + 0x18),0xb,\u0026DAT_140061398,\r\n                  \"CWidget::AssignDeviceType\");\r\n  }\r\n  bVar18 \u003d true;\r\n  if (uVar10 \u003d\u003d 0) {\r\n    if (((*(int *)(*(longlong *)(param_1 + 0x28) + 0x26b0) \u003d\u003d 6) ||\r\n        ((*(uint *)(*(longlong *)(param_1 + 0x28) + 0x2380) \u003e\u003e 0x11 \u0026 1) !\u003d 0)) \u0026\u0026\r\n       (*(int *)(*(longlong *)(param_1 + 0x18) + 0x2d8) \u003d\u003d 0)) {\r\n      FUN_14003ccf0(*(longlong *)(param_1 + 0x18));\r\n    }\r\n    goto LAB_1400558b4;\r\n  }\r\n  if (param_2 !\u003d 0x100) {\r\n    *(uint *)(param_1 + 0x20) \u003d param_2;\r\n    FUN_140055f90(param_1,(uint *)(param_1 + 0x3c),param_2);\r\n    *(ushort *)(param_1 + 0x4c) \u003d\r\n         *(ushort *)(param_1 + 0x4c) ^\r\n         ((ushort)((uint)*(undefined4 *)(param_1 + 0x3c) \u003e\u003e 0x10) \u0026 0xfff0 ^\r\n         *(ushort *)(param_1 + 0x4c)) \u0026 0xf0;\r\n    FUN_14004cc3c(*(longlong **)(*(longlong *)(param_1 + 0x28) + 0x150),*(uint *)(param_1 + 0x10),\r\n                  *(undefined4 *)(param_1 + 0x20));\r\n    if (*(int *)(*(short **)(param_1 + 0x18) + 0x196) \u003d\u003d 0) {\r\n      FUN_14003c4a8(*(short **)(param_1 + 0x18),7,(short *)\u0026local_58,4);\r\n      FUN_14003c4a8(*(short **)(param_1 + 0x18),0,local_54,4);\r\n    }\r\n  }\r\n  lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n  *(undefined4 *)(param_1 + 8) \u003d 0;\r\n  lVar4 \u003d *(longlong *)(lVar11 + 0xb20);\r\n  if (lVar4 !\u003d 0) {\r\n    if (*(longlong *)(lVar11 + 0xe10) \u003d\u003d param_1) {\r\n      (*(code *)PTR__guard_dispatch_icall_14005f458)(lVar4,param_2);\r\n      lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n      if (*(int *)(lVar11 + 0x26b4) \u003d\u003d 0x92) {\r\n        FUN_140055990(*(longlong *)(lVar11 + 0xe10));\r\n        if ((*(byte *)(*(longlong *)(*(longlong *)(param_1 + 0x28) + 0xe10) + 0x4c) \u0026 2) !\u003d 0) {\r\n          (*(code *)PTR__guard_dispatch_icall_14005f458)\r\n                    (*(undefined8 *)(*(longlong *)(param_1 + 0x28) + 0xb20),param_1);\r\n        }\r\n      }\r\n      else {\r\n        (*(code *)PTR__guard_dispatch_icall_14005f458)(*(undefined8 *)(lVar11 + 0xb20),param_2);\r\n      }\r\n      (*(code *)PTR__guard_dispatch_icall_14005f458)\r\n                (*(undefined8 *)(*(longlong *)(param_1 + 0x28) + 0xb20),param_2);\r\n      if (((((*(uint *)(*(longlong *)(param_1 + 0x28) + 0x2374) \u0026 1) !\u003d 0) ||\r\n           (sVar2 \u003d *(short *)(*(longlong *)(param_1 + 0x28) + 0xe68), sVar2 \u003d\u003d 0x4040)) ||\r\n          (sVar2 \u003d\u003d 0x4042)) || ((sVar2 \u003d\u003d 0x4050 || (sVar2 \u003d\u003d 0x4080)))) {\r\n        FUN_14003a6d8(*(short **)(param_1 + 0x18));\r\n      }\r\n    }\r\n    else if (((*(int *)(lVar11 + 0x26b4) \u003d\u003d 0x92) \u0026\u0026 (*(longlong *)(lVar11 + 0xe28) \u003d\u003d param_1)) ||\r\n            (((*(byte *)(param_1 + 0x4c) \u0026 8) !\u003d 0 \u0026\u0026\r\n             ((*(int *)(lVar11 + 0x26b0) !\u003d 5 || (*(int *)(lVar11 + 0x5c) !\u003d 0x22)))))) {\r\n      (*(code *)PTR__guard_dispatch_icall_14005f458)(lVar4,param_1);\r\n    }\r\n  }\r\n  iVar15 \u003d local_res8[0];\r\n  lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n  if (((*(uint *)(lVar11 + 0x2380) \u0026 0x10000) \u003d\u003d 0) ||\r\n     (lVar4 \u003d *(longlong *)(param_1 + 0x18), *(int *)(lVar4 + 0x32c) \u003d\u003d 0)) {\r\n    lVar4 \u003d *(longlong *)(param_1 + 0x18);\r\n    if ((*(int *)(lVar4 + 0x32c) \u003d\u003d 0) || (uVar16 \u003d\u003d *(uint *)(lVar4 + 0x2d8))) {\r\n      iVar3 \u003d *(int *)(lVar11 + 0x26b0);\r\n      if (iVar3 \u003d\u003d 5) {\r\n        if (local_50 !\u003d 0) {\r\n          FUN_14003c72c(lVar4);\r\n          FUN_14003c95c(*(longlong *)(param_1 + 0x18),uVar16);\r\n          FUN_14003a868(*(short **)(param_1 + 0x18));\r\n          iVar15 \u003d local_res8[0];\r\n        }\r\n      }\r\n      else if (iVar3 \u003d\u003d 0x2d) {\r\n        if (((*(uint *)(lVar4 + 0x2c8) \u003d\u003d (uint)*(byte *)(lVar11 + 0xcb0)) \u0026\u0026\r\n            (*(uint *)(lVar4 + 0x2d8) !\u003d uVar16)) \u0026\u0026 (uVar16 \u003c 2)) {\r\n          FUN_14003c72c(lVar4);\r\n          FUN_14003c95c(*(longlong *)(param_1 + 0x18),uVar16);\r\n          FUN_14003a868(*(short **)(param_1 + 0x18));\r\n          iVar15 \u003d local_res8[0];\r\n        }\r\n      }\r\n      else if ((iVar3 \u003d\u003d 0x42) || (iVar3 \u003d\u003d 0xa3)) {\r\n        if (*(int *)(lVar4 + 0x2c8) \u003d\u003d 1) {\r\n          if (bVar6) {\r\n            FUN_14003c72c(lVar4);\r\n            iVar15 \u003d local_res8[0];\r\n          }\r\n          else if (*(int *)(lVar4 + 0x328) \u003d\u003d 0) {\r\n            FUN_14003c95c(lVar4,uVar16);\r\n            FUN_14003a868(*(short **)(param_1 + 0x18));\r\n            iVar15 \u003d local_res8[0];\r\n          }\r\n        }\r\n      }\r\n      else if (iVar3 \u003d\u003d 0xb1) {\r\n        if ((*(uint *)(lVar4 + 0x2c8) \u003d\u003d (uint)*(byte *)(lVar11 + 0xcb4)) ||\r\n           ((((*(uint *)(lVar11 + 0x2384) \u003e\u003e 0x14 \u0026 1) !\u003d 0 \u0026\u0026\r\n             ((*(uint *)(lVar11 + 0x2384) \u003e\u003e 0x13 \u0026 1) !\u003d 0)) \u0026\u0026\r\n            (*(uint *)(lVar4 + 0x2c8) \u003d\u003d (uint)*(byte *)(lVar11 + 0xcb3))))) {\r\n          if (local_res8[0] \u003d\u003d 0) {\r\n            if (bVar6) {\r\n              FUN_14003c72c(lVar4);\r\n            }\r\n            else if (*(int *)(lVar4 + 0x328) \u003d\u003d 0) {\r\n              FUN_14003c95c(lVar4,uVar16);\r\n              FUN_14003a868(*(short **)(param_1 + 0x18));\r\n            }\r\n          }\r\n          if ((bVar7) \u0026\u0026\r\n             (piVar12 \u003d (int *)FUN_14002821c(*(longlong *)(param_1 + 0x28),0x3b),\r\n             piVar12 !\u003d (int *)0x0)) {\r\n            FUN_140055b90(piVar12);\r\n          }\r\n          if (local_4c !\u003d 0) {\r\n            piVar12 \u003d (int *)FUN_14002821c(*(longlong *)(param_1 + 0x28),0x3a);\r\nLAB_1400555d7:\r\n            if (piVar12 !\u003d (int *)0x0) {\r\n              FUN_140055b90(piVar12);\r\n            }\r\n          }\r\n        }\r\n      }\r\n      else if (((*(uint *)(lVar11 + 0x2388) \u0026 1) !\u003d 0) \u0026\u0026\r\n              (((uVar13 \u003d *(uint *)(lVar4 + 0x2c8), uVar13 \u003d\u003d *(byte *)(lVar11 + 0xcb3) ||\r\n                (uVar13 \u003d\u003d *(byte *)(lVar11 + 0xcb1))) || (uVar13 \u003d\u003d *(byte *)(lVar11 + 0xcb4))))) {\r\n        if (local_res8[0] \u003d\u003d 0) {\r\n          if (bVar6) {\r\n            FUN_14003c72c(lVar4);\r\n          }\r\n          else if (*(int *)(lVar4 + 0x328) \u003d\u003d 0) {\r\n            FUN_14003c95c(lVar4,uVar16);\r\n            FUN_14003a868(*(short **)(param_1 + 0x18));\r\n          }\r\n        }\r\n        if ((bVar8) \u0026\u0026\r\n           (piVar12 \u003d (int *)FUN_14002821c(*(longlong *)(param_1 + 0x28),0x3b),\r\n           piVar12 !\u003d (int *)0x0)) {\r\n          FUN_140055b90(piVar12);\r\n        }\r\n        if (uVar17 !\u003d 0) {\r\n          piVar12 \u003d (int *)FUN_14002821c(*(longlong *)(param_1 + 0x28),0x3a);\r\n          goto LAB_1400555d7;\r\n        }\r\n      }\r\n      lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n      if ((((*(uint *)(lVar11 + 0x2384) \u0026 0x40000) !\u003d 0) \u0026\u0026\r\n          (*(int *)(lVar11 + 0x26b4) \u003d\u003d 0xc9 || *(int *)(lVar11 + 0x26b4) \u003d\u003d 0xca)) \u0026\u0026\r\n         ((lVar4 \u003d *(longlong *)(param_1 + 0x18),\r\n          *(uint *)(lVar4 + 0x2c8) \u003d\u003d (uint)*(byte *)(lVar11 + 0xcb2) \u0026\u0026\r\n          (*(uint *)(lVar4 + 0x2d8) !\u003d uVar16)))) {\r\n        FUN_14003c72c(lVar4);\r\n        FUN_14003c95c(*(longlong *)(param_1 + 0x18),uVar16);\r\n        FUN_14003a868(*(short **)(param_1 + 0x18));\r\n        lVar11 \u003d FUN_14002821c(*(longlong *)(param_1 + 0x28),0x37);\r\n        if (lVar11 !\u003d 0) {\r\n          if ((*(byte *)(lVar11 + 0x4c) \u0026 2) \u003d\u003d 0) {\r\n            local_res8[0] \u003d -1;\r\n            FUN_14003c4e0(*(short **)(param_1 + 0x18),0xe,(short *)local_res8,4);\r\n          }\r\n          else {\r\n            FUN_14003a308(*(short **)(param_1 + 0x18),\r\n                          *(uint *)(*(longlong *)(param_1 + 0x28) + 0x2384) \u003e\u003e 0x19 \u0026 1,0);\r\n          }\r\n        }\r\n      }\r\n      if ((local_48 !\u003d 0) \u0026\u0026\r\n         (lVar11 \u003d *(longlong *)(param_1 + 0x18),\r\n         *(uint *)(lVar11 + 0x2c8) \u003d\u003d (uint)*(byte *)(*(longlong *)(param_1 + 0x28) + 0xcb0))) {\r\n        if (iVar15 \u003d\u003d 0) {\r\n          if (bVar6) {\r\n            FUN_14003c72c(lVar11);\r\n          }\r\n          else if (*(int *)(lVar11 + 0x328) \u003d\u003d 0) {\r\n            FUN_14003c95c(lVar11,uVar16);\r\n            FUN_14003a868(*(short **)(param_1 + 0x18));\r\n          }\r\n        }\r\n        piVar12 \u003d (int *)FUN_14002821c(*(longlong *)(param_1 + 0x28),0x3c);\r\n        if (piVar12 !\u003d (int *)0x0) {\r\n          FUN_140055b90(piVar12);\r\n        }\r\n      }\r\n      FUN_14003ccf0(*(longlong *)(param_1 + 0x18));\r\n    }\r\n    else {\r\n      FUN_14003c72c(lVar4);\r\n      if (!bVar6) {\r\n        FUN_14003c95c(*(longlong *)(param_1 + 0x18),uVar16);\r\n        FUN_14003a868(*(short **)(param_1 + 0x18));\r\n        if ((*(int *)(*(longlong *)(param_1 + 0x28) + 0x26b4) \u003d\u003d 0x85) ||\r\n           (*(short *)(*(longlong *)(param_1 + 0x28) + 0x26a8) \u003d\u003d 0x1b9b)) {\r\n          FUN_1400395d8(*(short **)(param_1 + 0x18));\r\n        }\r\n      }\r\n    }\r\n  }\r\n  else if (param_2 \u003d\u003d 0x100) {\r\n    FUN_14003c72c(lVar4);\r\n  }\r\n  else {\r\n    FUN_14003c95c(lVar4,uVar16);\r\n    FUN_14003a868(*(short **)(param_1 + 0x18));\r\n  }\r\n  lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n  if (param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe18)) {\r\n    puVar1 \u003d (ushort *)(*(longlong *)(lVar11 + 0xe18) + 0x4c);\r\n    *puVar1 \u003d *puVar1 \u0026 0xfffd;\r\n    lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n  }\r\n  if ((((((param_2 \u003d\u003d 0x22) || (param_2 \u003d\u003d 0x23)) || (param_2 \u003d\u003d 0x32)) || (param_2 \u003d\u003d 0x33)) \u0026\u0026\r\n      (((*(ushort *)(param_1 + 0x4e) \u003e\u003e 0xc \u0026 1) !\u003d 0 \u0026\u0026 (*(longlong *)(lVar11 + 0xe18) !\u003d 0)))) \u0026\u0026\r\n     (((-1 \u003c (char)*(undefined4 *)(lVar11 + 0x2378) ||\r\n       ((lVar4 \u003d *(longlong *)(lVar11 + 0xe10), lVar4 \u003d\u003d 0 || ((*(byte *)(lVar4 + 0x4c) \u0026 2) \u003d\u003d 0)))\r\n       ) || (bVar18 \u003d false, *(int *)(lVar4 + 0xcc) - 1U \u003c 2)))) {\r\n    uVar13 \u003d 1;\r\n    puVar1 \u003d (ushort *)(*(longlong *)(lVar11 + 0xe18) + 0x4c);\r\n    *puVar1 \u003d *puVar1 | 2;\r\n    if ((*(uint *)(*(longlong *)(param_1 + 0x28) + 0x2380) \u003e\u003e 0x19 \u0026 1) !\u003d 0) {\r\n      uVar13 \u003d 0x21;\r\n    }\r\n    FUN_14005470c(*(longlong *)(*(longlong *)(param_1 + 0x28) + 0xe18),uVar13);\r\n    bVar18 \u003d true;\r\n  }\r\n  lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n  if (((param_1 \u003d\u003d *(longlong *)(lVar11 + 0xe10)) \u0026\u0026 (*(longlong *)(lVar11 + 0xe18) !\u003d 0)) \u0026\u0026\r\n     (bVar18)) {\r\n    if (((*(uint *)(lVar11 + 0x2374) \u0026 2) !\u003d 0) \u0026\u0026 (param_2 \u003c 2)) {\r\n      puVar1 \u003d (ushort *)(*(longlong *)(lVar11 + 0xe18) + 0x4c);\r\n      *puVar1 \u003d *puVar1 | 2;\r\n      lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n    }\r\n    FUN_14005470c(*(longlong *)(lVar11 + 0xe18),param_2);\r\n    lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n  }\r\n  if (*(longlong *)(lVar11 + 0xb28) !\u003d 0) {\r\n    FUN_140020e64(*(longlong *)(lVar11 + 0xb28),0x16);\r\n  }\r\nLAB_1400558b4:\r\n  puVar9 \u003d PTR_LOOP_140067000;\r\n  if (((undefined **)PTR_LOOP_140067000 !\u003d \u0026PTR_LOOP_140067000) \u0026\u0026\r\n     ((*(uint *)(PTR_LOOP_140067000 + 0x2c) \u0026 0x20) !\u003d 0)) {\r\n    FUN_1400560ec(param_1,*(uint *)(param_1 + 0x20));\r\n    FUN_140056bd0(*(undefined8 *)(puVar9 + 0x18),0xc,\u0026DAT_140061398,\"CWidget::AssignDeviceType\");\r\n  }\r\n  lVar11 \u003d *(longlong *)(param_1 + 0x28);\r\n  if (((((char)*(undefined4 *)(lVar11 + 0x2378) \u003c \u0027\\0\u0027) \u0026\u0026 (param_2 \u003d\u003d 0x22)) \u0026\u0026\r\n      (lVar4 \u003d *(longlong *)(lVar11 + 0xe10), lVar4 !\u003d 0)) \u0026\u0026\r\n     ((param_1 \u003d\u003d lVar4 \u0026\u0026 ((*(byte *)(lVar4 + 0x4c) \u0026 10) \u003d\u003d 10)))) {\r\n    *(undefined4 *)(lVar11 + 0x4c) \u003d 1;\r\n  }\r\n  return unaff_EBP;\r\n}\r\n\r\n"
+}

@@ -1,0 +1,127 @@
+{
+  "address": "0x1400303ec",
+  "name": "FUN_1400303ec",
+  "signature": "undefined __fastcall FUN_1400303ec(longlong param_1, int param_2, uint param_3, uint param_4, uint param_5)",
+  "callees": [
+    {
+      "address": "0x14002ff18",
+      "name": "FUN_14002ff18",
+      "signature": "int __fastcall FUN_14002ff18(longlong param_1, uint param_2, longlong param_3)"
+    },
+    {
+      "address": "0x140057e50",
+      "name": "__security_check_cookie",
+      "signature": "void __cdecl __security_check_cookie(uintptr_t _StackCookie)"
+    },
+    {
+      "address": "0x140028248",
+      "name": "FUN_140028248",
+      "signature": "undefined __fastcall FUN_140028248(longlong param_1, int param_2, uint param_3, undefined4 * param_4)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x140019640",
+      "name": "FUN_140019640",
+      "signature": "undefined8 __fastcall FUN_140019640(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x1400185d0",
+      "name": "FUN_1400185d0",
+      "signature": "undefined8 __fastcall FUN_1400185d0(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140017524",
+      "name": "FUN_140017524",
+      "signature": "int __fastcall FUN_140017524(longlong param_1, int param_2, short * param_3)"
+    },
+    {
+      "address": "0x140017cb0",
+      "name": "FUN_140017cb0",
+      "signature": "undefined __fastcall FUN_140017cb0(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x14003e020",
+      "name": "FUN_14003e020",
+      "signature": "undefined __fastcall FUN_14003e020(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x14003d520",
+      "name": "FUN_14003d520",
+      "signature": "undefined8 __fastcall FUN_14003d520(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140017e80",
+      "name": "FUN_140017e80",
+      "signature": "undefined __fastcall FUN_140017e80(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x1400176d0",
+      "name": "FUN_1400176d0",
+      "signature": "undefined8 * __fastcall FUN_1400176d0(undefined8 * param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140018290",
+      "name": "FUN_140018290",
+      "signature": "undefined __fastcall FUN_140018290(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x140017950",
+      "name": "FUN_140017950",
+      "signature": "undefined8 __fastcall FUN_140017950(longlong * param_1, longlong param_2, longlong param_3)"
+    },
+    {
+      "address": "0x1400256a0",
+      "name": "FUN_1400256a0",
+      "signature": "undefined __fastcall FUN_1400256a0(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x140018da0",
+      "name": "FUN_140018da0",
+      "signature": "undefined8 __fastcall FUN_140018da0(longlong param_1, longlong param_2, longlong param_3, uint param_4)"
+    },
+    {
+      "address": "0x14003ce18",
+      "name": "FUN_14003ce18",
+      "signature": "undefined8 * __fastcall FUN_14003ce18(undefined8 * param_1, longlong param_2)"
+    },
+    {
+      "address": "0x14003db40",
+      "name": "FUN_14003db40",
+      "signature": "undefined8 __fastcall FUN_14003db40(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140030838",
+      "name": "FUN_140030838",
+      "signature": "undefined __fastcall FUN_140030838(longlong param_1, longlong param_2, undefined8 param_3, int param_4, int param_5)"
+    },
+    {
+      "address": "0x140039aa0",
+      "name": "FUN_140039aa0",
+      "signature": "undefined __fastcall FUN_140039aa0(longlong param_1)"
+    },
+    {
+      "address": "0x14003e1d0",
+      "name": "FUN_14003e1d0",
+      "signature": "undefined __fastcall FUN_14003e1d0(longlong param_1)"
+    },
+    {
+      "address": "0x140017430",
+      "name": "FUN_140017430",
+      "signature": "undefined4 __fastcall FUN_140017430(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x1400345e0",
+      "name": "FUN_1400345e0",
+      "signature": "undefined __fastcall FUN_1400345e0(longlong param_1, int param_2)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\r\n\r\nvoid FUN_1400303ec(longlong param_1,int param_2,uint param_3,uint param_4,uint param_5)\r\n\r\n{\r\n  undefined1 auStack_68 [32];\r\n  uint local_48 [2];\r\n  uint local_40 [4];\r\n  uint local_30;\r\n  ulonglong local_20;\r\n  \r\n  local_20 \u003d DAT_1400698c0 ^ (ulonglong)auStack_68;\r\n  if (param_5 !\u003d 0) {\r\n    FUN_140028248(param_1,param_2,param_3,local_48);\r\n    param_4 \u003d param_4 | local_48[0] \u0026 param_5;\r\n  }\r\n  local_40[0] \u003d param_2 \u003c\u003c 0x14 | param_3 | 0x50000;\r\n  local_30 \u003d param_2 \u003c\u003c 0x14 | param_4 | 0x40000;\r\n  FUN_14002ff18(param_1,2,(longlong)local_40);\r\n  return;\r\n}\r\n\r\n"
+}

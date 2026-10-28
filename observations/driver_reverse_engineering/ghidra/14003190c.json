@@ -1,0 +1,258 @@
+{
+  "address": "0x14003190c",
+  "name": "FUN_14003190c",
+  "signature": "undefined __fastcall FUN_14003190c(longlong param_1, undefined2 param_2, undefined1 param_3, undefined1 param_4, undefined2 param_5, undefined2 param_6, undefined8 param_7, undefined4 param_8, char param_9)",
+  "callees": [
+    {
+      "address": "0x14002fdd0",
+      "name": "FUN_14002fdd0",
+      "signature": "int __fastcall FUN_14002fdd0(longlong param_1, undefined8 param_2, undefined8 param_3)"
+    }
+  ],
+  "callers": [
+    {
+      "address": "0x14002a738",
+      "name": "FUN_14002a738",
+      "signature": "int __fastcall FUN_14002a738(longlong param_1, longlong param_2)"
+    },
+    {
+      "address": "0x14002ddb0",
+      "name": "FUN_14002ddb0",
+      "signature": "int __fastcall FUN_14002ddb0(longlong param_1, undefined2 param_2, undefined8 param_3, undefined1 * param_4)"
+    },
+    {
+      "address": "0x140050c64",
+      "name": "FUN_140050c64",
+      "signature": "undefined4 __fastcall FUN_140050c64(longlong * param_1, longlong * param_2)"
+    },
+    {
+      "address": "0x140028978",
+      "name": "FUN_140028978",
+      "signature": "undefined8 __fastcall FUN_140028978(longlong param_1, uint param_2, longlong param_3, int param_4)"
+    },
+    {
+      "address": "0x140031ce8",
+      "name": "FUN_140031ce8",
+      "signature": "undefined4 __fastcall FUN_140031ce8(longlong param_1, undefined2 param_2, undefined8 param_3, byte param_4, byte param_5)"
+    },
+    {
+      "address": "0x14002ec78",
+      "name": "FUN_14002ec78",
+      "signature": "undefined __fastcall FUN_14002ec78(longlong param_1, undefined2 param_2, short param_3)"
+    },
+    {
+      "address": "0x14002fae0",
+      "name": "FUN_14002fae0",
+      "signature": "undefined8 __fastcall FUN_14002fae0(longlong param_1, int param_2, uint param_3, uint param_4, undefined8 * param_5)"
+    },
+    {
+      "address": "0x14002ff18",
+      "name": "FUN_14002ff18",
+      "signature": "int __fastcall FUN_14002ff18(longlong param_1, uint param_2, longlong param_3)"
+    },
+    {
+      "address": "0x140052c3c",
+      "name": "FUN_140052c3c",
+      "signature": "undefined4 __fastcall FUN_140052c3c(longlong param_1, longlong param_2, byte param_3)"
+    },
+    {
+      "address": "0x1400229c0",
+      "name": "FUN_1400229c0",
+      "signature": "undefined8 __fastcall FUN_1400229c0(longlong * param_1, longlong * param_2)"
+    },
+    {
+      "address": "0x14003197c",
+      "name": "FUN_14003197c",
+      "signature": "undefined __fastcall FUN_14003197c(longlong param_1, undefined2 param_2, undefined1 param_3, undefined2 param_4, undefined2 param_5, undefined8 param_6, undefined4 param_7)"
+    },
+    {
+      "address": "0x1400322bc",
+      "name": "FUN_1400322bc",
+      "signature": "undefined4 __fastcall FUN_1400322bc(longlong param_1, undefined1 param_2, undefined1 param_3)"
+    },
+    {
+      "address": "0x140026db4",
+      "name": "FUN_140026db4",
+      "signature": "undefined2 __fastcall FUN_140026db4(longlong param_1)"
+    },
+    {
+      "address": "0x14003d3e0",
+      "name": "FUN_14003d3e0",
+      "signature": "undefined __fastcall FUN_14003d3e0(undefined8 * param_1)"
+    },
+    {
+      "address": "0x14002f2cc",
+      "name": "FUN_14002f2cc",
+      "signature": "undefined8 __fastcall FUN_14002f2cc(longlong param_1, undefined4 param_2, int param_3)"
+    },
+    {
+      "address": "0x1400319c0",
+      "name": "FUN_1400319c0",
+      "signature": "undefined __fastcall FUN_1400319c0(longlong param_1, undefined2 param_2, undefined1 param_3, undefined2 param_4, undefined2 param_5, undefined8 param_6, undefined4 param_7)"
+    },
+    {
+      "address": "0x14002b7a4",
+      "name": "FUN_14002b7a4",
+      "signature": "undefined __fastcall FUN_14002b7a4(longlong param_1)"
+    },
+    {
+      "address": "0x140045e60",
+      "name": "FUN_140045e60",
+      "signature": "uint __fastcall FUN_140045e60(longlong * param_1, short * param_2, longlong param_3)"
+    },
+    {
+      "address": "0x140031890",
+      "name": "FUN_140031890",
+      "signature": "undefined __fastcall FUN_140031890(longlong param_1, undefined1 param_2, undefined1 param_3, undefined1 param_4, undefined1 param_5, undefined1 param_6, undefined1 param_7, undefined8 param_8, undefined4 param_9, char param_10)"
+    },
+    {
+      "address": "0x1400321c4",
+      "name": "FUN_1400321c4",
+      "signature": "undefined4 __fastcall FUN_1400321c4(longlong param_1, undefined4 param_2, undefined4 param_3)"
+    },
+    {
+      "address": "0x140030838",
+      "name": "FUN_140030838",
+      "signature": "undefined __fastcall FUN_140030838(longlong param_1, longlong param_2, undefined8 param_3, int param_4, int param_5)"
+    },
+    {
+      "address": "0x14002ebb0",
+      "name": "FUN_14002ebb0",
+      "signature": "undefined __fastcall FUN_14002ebb0(longlong param_1, undefined2 param_2, undefined8 param_3)"
+    },
+    {
+      "address": "0x1400523ac",
+      "name": "FUN_1400523ac",
+      "signature": "int __fastcall FUN_1400523ac(longlong param_1, char param_2)"
+    },
+    {
+      "address": "0x14003d7f0",
+      "name": "FUN_14003d7f0",
+      "signature": "uint __fastcall FUN_14003d7f0(longlong param_1, longlong param_2, longlong param_3)"
+    },
+    {
+      "address": "0x14002f8f4",
+      "name": "FUN_14002f8f4",
+      "signature": "undefined8 __fastcall FUN_14002f8f4(longlong param_1, int param_2, int param_3, uint param_4, longlong param_5)"
+    },
+    {
+      "address": "0x14002e040",
+      "name": "FUN_14002e040",
+      "signature": "int __fastcall FUN_14002e040(longlong param_1, int param_2, undefined8 param_3, undefined4 param_4, ushort * param_5)"
+    },
+    {
+      "address": "0x140031220",
+      "name": "FUN_140031220",
+      "signature": "ulonglong __fastcall FUN_140031220(longlong param_1, longlong param_2, uint param_3)"
+    },
+    {
+      "address": "0x140052e2c",
+      "name": "FUN_140052e2c",
+      "signature": "undefined8 __fastcall FUN_140052e2c(longlong param_1, char param_2)"
+    },
+    {
+      "address": "0x14003e020",
+      "name": "FUN_14003e020",
+      "signature": "undefined __fastcall FUN_14003e020(longlong param_1, int param_2)"
+    },
+    {
+      "address": "0x14002ca14",
+      "name": "FUN_14002ca14",
+      "signature": "int __fastcall FUN_14002ca14(undefined8 param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140029564",
+      "name": "FUN_140029564",
+      "signature": "int __fastcall FUN_140029564(longlong param_1, byte param_2, uint param_3, uint param_4, longlong param_5, uint param_6, uint param_7)"
+    },
+    {
+      "address": "0x14002cbb4",
+      "name": "FUN_14002cbb4",
+      "signature": "NTSTATUS __fastcall FUN_14002cbb4(undefined8 param_1, longlong param_2)"
+    },
+    {
+      "address": "0x140052368",
+      "name": "FUN_140052368",
+      "signature": "undefined __fastcall FUN_140052368(longlong param_1, undefined1 param_2)"
+    },
+    {
+      "address": "0x140029464",
+      "name": "FUN_140029464",
+      "signature": "int __fastcall FUN_140029464(longlong param_1, char * param_2)"
+    },
+    {
+      "address": "0x140031e5c",
+      "name": "FUN_140031e5c",
+      "signature": "int __fastcall FUN_140031e5c(longlong param_1, int param_2, undefined8 param_3, undefined1 * param_4)"
+    },
+    {
+      "address": "0x14002c754",
+      "name": "FUN_14002c754",
+      "signature": "int __fastcall FUN_14002c754(undefined8 param_1, longlong param_2)"
+    },
+    {
+      "address": "0x14002f9fc",
+      "name": "FUN_14002f9fc",
+      "signature": "undefined8 __fastcall FUN_14002f9fc(longlong param_1, undefined8 param_2, byte * param_3)"
+    },
+    {
+      "address": "0x14002f7d8",
+      "name": "FUN_14002f7d8",
+      "signature": "bool __fastcall FUN_14002f7d8(longlong param_1)"
+    },
+    {
+      "address": "0x14002ebec",
+      "name": "FUN_14002ebec",
+      "signature": "undefined __fastcall FUN_14002ebec(longlong param_1, undefined2 param_2, byte param_3, byte param_4)"
+    },
+    {
+      "address": "0x14002f810",
+      "name": "FUN_14002f810",
+      "signature": "undefined8 __fastcall FUN_14002f810(longlong param_1, undefined8 param_2, undefined1 * param_3)"
+    },
+    {
+      "address": "0x14002e484",
+      "name": "FUN_14002e484",
+      "signature": "int __fastcall FUN_14002e484(longlong param_1, undefined4 param_2, undefined4 * param_3)"
+    },
+    {
+      "address": "0x1400285e4",
+      "name": "FUN_1400285e4",
+      "signature": "int __fastcall FUN_1400285e4(longlong param_1)"
+    }
+  ],
+  "assembly": [
+    "0x14003190c PUSH RBP",
+    "0x14003190e LEA RBP,[RSP + -0x2f]",
+    "0x140031913 SUB RSP,0xc0",
+    "0x14003191a MOV EAX,0x88",
+    "0x14003191f MOV word ptr [RBP + -0x6f],DX",
+    "0x140031923 MOV word ptr [RBP + -0x71],AX",
+    "0x140031927 XOR EDX,EDX",
+    "0x140031929 CMP byte ptr [RBP + 0x7f],DL",
+    "0x14003192c MOV EAX,dword ptr [RBP + 0x77]",
+    "0x14003192f MOV dword ptr [RBP + -0x4d],EAX",
+    "0x140031932 MOV RAX,qword ptr [RBP + 0x6f]",
+    "0x140031936 MOV qword ptr [RBP + -0x49],RAX",
+    "0x14003193a MOVZX EAX,word ptr [RBP + 0x5f]",
+    "0x14003193e MOV word ptr [RBP + 0x11],AX",
+    "0x140031942 MOVZX EAX,word ptr [RBP + 0x67]",
+    "0x140031946 MOV word ptr [RBP + 0x13],AX",
+    "0x14003194a MOV EAX,EDX",
+    "0x14003194c SETNZ AL",
+    "0x14003194f MOV qword ptr [RBP + -0x41],RDX",
+    "0x140031953 MOV byte ptr [RBP + 0xf],R8B",
+    "0x140031957 MOV R8,-0x2faf080",
+    "0x14003195e MOV qword ptr [RBP + -0x39],RDX",
+    "0x140031962 LEA RDX,[RBP + -0x71]",
+    "0x140031966 MOV dword ptr [RBP + -0x51],EAX",
+    "0x140031969 MOV byte ptr [RBP + 0x10],R9B",
+    "0x14003196d CALL 0x14002fdd0",
+    "0x140031972 ADD RSP,0xc0",
+    "0x140031979 POP RBP",
+    "0x14003197a RET"
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_14003190c(longlong param_1,undefined2 param_2,undefined1 param_3,undefined1 param_4,\r\n                  undefined2 param_5,undefined2 param_6,undefined8 param_7,undefined4 param_8,\r\n                  char param_9)\r\n\r\n{\r\n  undefined2 local_a8;\r\n  undefined2 local_a6;\r\n  uint local_88;\r\n  undefined4 local_84;\r\n  undefined8 local_80;\r\n  undefined8 local_78;\r\n  undefined8 local_70;\r\n  undefined1 local_28;\r\n  undefined1 local_27;\r\n  undefined2 local_26;\r\n  undefined2 local_24;\r\n  \r\n  local_a8 \u003d 0x88;\r\n  local_84 \u003d param_8;\r\n  local_80 \u003d param_7;\r\n  local_26 \u003d param_5;\r\n  local_24 \u003d param_6;\r\n  local_78 \u003d 0;\r\n  local_70 \u003d 0;\r\n  local_88 \u003d (uint)(param_9 !\u003d \u0027\\0\u0027);\r\n  local_a6 \u003d param_2;\r\n  local_28 \u003d param_3;\r\n  local_27 \u003d param_4;\r\n  FUN_14002fdd0(param_1,\u0026local_a8,0xfffffffffd050f80);\r\n  return;\r\n}\r\n\r\n"
+}

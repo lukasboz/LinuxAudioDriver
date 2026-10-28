@@ -1,0 +1,16 @@
+{
+  "address": "0x14004eb18",
+  "name": "FUN_14004eb18",
+  "signature": "undefined __fastcall FUN_14004eb18(short param_1, short param_2, undefined4 * param_3, undefined4 * param_4, undefined4 * param_5)",
+  "callees": [],
+  "callers": [
+    {
+      "address": "0x140028a80",
+      "name": "FUN_140028a80",
+      "signature": "int __fastcall FUN_140028a80(longlong param_1)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nvoid FUN_14004eb18(short param_1,short param_2,undefined4 *param_3,undefined4 *param_4,\r\n                  undefined4 *param_5)\r\n\r\n{\r\n  undefined4 uVar1;\r\n  longlong lVar2;\r\n  undefined4 uVar3;\r\n  short *psVar4;\r\n  uint uVar5;\r\n  \r\n  uVar1 \u003d 0;\r\n  psVar4 \u003d \u0026DAT_140068a72;\r\n  uVar3 \u003d 0;\r\n  uVar5 \u003d 0;\r\n  while ((param_1 !\u003d psVar4[-1] || (param_2 !\u003d *psVar4))) {\r\n    uVar5 \u003d uVar5 + 1;\r\n    psVar4 \u003d psVar4 + 8;\r\n    if (0xdd \u003c uVar5) {\r\nLAB_14004eb6a:\r\n      *param_3 \u003d uVar1;\r\n      *param_4 \u003d uVar3;\r\n      return;\r\n    }\r\n  }\r\n  lVar2 \u003d (longlong)(int)uVar5;\r\n  uVar1 \u003d *(undefined4 *)(\u0026DAT_140068a74 + lVar2 * 0x10);\r\n  uVar3 \u003d *(undefined4 *)(\u0026DAT_140068a78 + lVar2 * 0x10);\r\n  *param_5 \u003d *(undefined4 *)(\u0026DAT_140068a7c + lVar2 * 0x10);\r\n  goto LAB_14004eb6a;\r\n}\r\n\r\n"
+}

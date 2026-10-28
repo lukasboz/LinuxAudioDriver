@@ -1,0 +1,26 @@
+{
+  "address": "0x14003a624",
+  "name": "FUN_14003a624",
+  "signature": "wchar_t * __fastcall FUN_14003a624(undefined8 param_1, int param_2)",
+  "callees": [],
+  "callers": [
+    {
+      "address": "0x14005470c",
+      "name": "FUN_14005470c",
+      "signature": "uint __fastcall FUN_14005470c(longlong param_1, uint param_2)"
+    },
+    {
+      "address": "0x1400524f8",
+      "name": "FUN_1400524f8",
+      "signature": "int __fastcall FUN_1400524f8(longlong param_1, short * param_2, int param_3)"
+    },
+    {
+      "address": "0x14002efac",
+      "name": "FUN_14002efac",
+      "signature": "undefined __fastcall FUN_14002efac(longlong param_1)"
+    }
+  ],
+  "complete": true,
+  "error": "",
+  "pseudocode": "\r\nwchar_t * FUN_14003a624(undefined8 param_1,int param_2)\r\n\r\n{\r\n  if (param_2 \u003c 7) {\r\n    if (param_2 \u003d\u003d 6) {\r\n      return L\"eMic\";\r\n    }\r\n    if (param_2 \u003d\u003d 0) {\r\n      return L\"eHeadPhone\";\r\n    }\r\n    if (param_2 \u003d\u003d 1) {\r\n      return L\"eSpker\";\r\n    }\r\n    if (param_2 \u003d\u003d 2) {\r\n      return L\"eInternalSpk\";\r\n    }\r\n    if (param_2 \u003d\u003d 3) {\r\n      return L\"e2ndSpker\";\r\n    }\r\n    if (param_2 \u003d\u003d 4) {\r\n      return L\"eSPDIF\";\r\n    }\r\n    if (param_2 \u003d\u003d 5) {\r\n      return L\"eReservered\";\r\n    }\r\n  }\r\n  else {\r\n    if (param_2 \u003d\u003d 7) {\r\n      return L\"eLineIn\";\r\n    }\r\n    if (param_2 \u003d\u003d 8) {\r\n      return L\"e2ndMic\";\r\n    }\r\n    if (param_2 \u003d\u003d 9) {\r\n      return L\"e2ndLineIn\";\r\n    }\r\n    if (param_2 \u003d\u003d 10) {\r\n      return L\"eHeadsetMic\";\r\n    }\r\n    if (param_2 \u003d\u003d 0xb) {\r\n      return L\"e3rdMic\";\r\n    }\r\n    if (param_2 \u003d\u003d 0xc) {\r\n      return L\"eDeviceTypeCount\";\r\n    }\r\n  }\r\n  return L\"ERROR\";\r\n}\r\n\r\n"
+}
