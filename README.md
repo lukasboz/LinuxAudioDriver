@@ -8,6 +8,20 @@ Both original warm and cold capture matrices completed with no intelligible voic
 
 Run `audio_diag.py` on the actual Kubuntu desktop as your usual user, so it uses your desktop audio session. It automatically finds `0b05:1b9b`; `--card 3` is optional and still verifies the USB ID. Only the explicit `realtek_rear_mic.py apply`/`line` USB transfer requires `sudo`.
 
+## Clone on Ubuntu
+
+Install Git and Git LFS before cloning:
+
+```bash
+sudo apt update
+sudo apt install git git-lfs
+git lfs install
+git clone https://github.com/lukasboz/LinuxAudioDriver.git
+cd LinuxAudioDriver
+```
+
+The original Windows driver archive is stored with Git LFS. If you already cloned the repository before installing Git LFS, run `git lfs pull` in the project directory to download the archive. For the rear microphone hardware experiment, follow [REVERSE_ENGINEERING.md](REVERSE_ENGINEERING.md).
+
 ## Run the collector
 
 Copy this project to a writable directory on Ubuntu, or use the shared project folder. Change into that directory. Run:
