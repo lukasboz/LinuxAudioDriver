@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Test the Windows driver's rear-microphone selection on the verified ASUS board.
+"""Select the rear microphone mode on the supported ASUS USB audio profile.
 
 The default action only prints a plan. 'apply' selects the rear microphone;
-'line' selects line input again. This experimental runtime fix needs the user's
-Kubuntu recording test. The exact request is documented in REVERSE_ENGINEERING.md.
+'line' selects line input again. Both operations validate the motherboard,
+USB identity, firmware revision, interface topology and opened device.
 """
 
 from __future__ import annotations
@@ -48,7 +48,7 @@ def validate_device_descriptor(data: bytes) -> None:
     if len(data) != 18 or data[:2] != b"\x12\x01":
         raise ValueError("The USB device descriptor is incomplete or invalid")
     if struct.unpack_from("<HHH", data, 8) != (VID, PID, REVISION):
-        raise ValueError("USB identity or device revision differs from the analyzed hardware")
+        raise ValueError("USB identity or device revision differs from the supported profile")
 
 
 def validate_topology(data: bytes) -> None:
@@ -57,7 +57,7 @@ def validate_topology(data: bytes) -> None:
         raise ValueError("Missing USB configuration descriptor")
     total = struct.unpack_from("<H", data, 20)[0]
     if len(data) != 18 + total or data[22] != 8:
-        raise ValueError("USB configuration length or interface count differs from the baseline")
+        raise ValueError("USB configuration length or interface count differs from the supported profile")
     interfaces: dict[int, tuple[int, int, int]] = {}
     endpoints: dict[int, set[int]] = {}
     interface = None
@@ -85,7 +85,7 @@ def validate_topology(data: bytes) -> None:
     expected = {0: (1, 1, 0x20), 7: (3, 0, 0)}
     expected.update({number: (1, 2, 0x20) for number in range(1, 7)})
     if interfaces != expected:
-        raise ValueError("USB audio/HID interface topology differs from the analyzed hardware")
+        raise ValueError("USB audio/HID interface topology differs from the supported profile")
     for number, endpoint in {0: 0x89, 1: 0x81, 2: 0x83, 3: 0x84, 7: 0x8A}.items():
         if endpoint not in endpoints.get(number, set()):
             raise ValueError(f"Expected endpoint 0x{endpoint:02x} absent on interface {number}")
@@ -107,7 +107,7 @@ class Device:
 def discover_device(sysfs: Path = Path("/sys")) -> Device:
     board = (sysfs / "class/dmi/id/board_name").read_text().strip()
     if board.upper() != BOARD:
-        raise ValueError(f"This experiment was derived for {BOARD}; detected {board!r}")
+        raise ValueError(f"This hardware profile supports {BOARD}; detected {board!r}")
     matches = []
     for entry in (sysfs / "bus/usb/devices").iterdir():
         if ":" in entry.name or not (entry / "idVendor").exists():
@@ -119,7 +119,7 @@ def discover_device(sysfs: Path = Path("/sys")) -> Device:
         raise ValueError(f"Expected exactly one {VID:04x}:{PID:04x} USB device; found {len(matches)}")
     target = matches[0]
     if int((target / "bcdDevice").read_text(), 16) != REVISION:
-        raise ValueError("Device revision differs from the analyzed 0x0013 hardware")
+        raise ValueError("Device revision differs from the supported 0x0013 hardware")
     validate_topology((target / "descriptors").read_bytes())
     driver = (sysfs / "bus/usb/devices" / (target.name + ":1.0") / "driver").resolve()
     if driver.name != "snd-usb-audio":
@@ -193,22 +193,21 @@ def execute(device: Device, action: str) -> dict:
             raise ValueError("Opened node does not match the discovered USB bus/device")
         transfer = send_mode(Usbfs(fd), action)
         return {"status": "transferred", "device": asdict(device), "transfer": transfer,
-                "hardware_audio_result": "unverified; listen to a direct ALSA recording"}
+                "hardware_audio_result": "not tested by this command"}
     finally:
         os.close(fd)
 
 
 def plan() -> dict:
     return {
-        "status": "planned", "experimental": True,
+        "status": "planned", "hardware_profile": "asus-x870e-e-rear",
         "target": {"usb_id": "0b05:1b9b", "bcdDevice": "0x0013", "board": BOARD},
         "apply_transfer": {"bmRequestType": "0x40", "bRequest": "0x6c", "wValue": 0,
                            "wIndex": 1, "wLength": 1, "payload_hex": "13"},
         "line_input_transfer": {"bmRequestType": "0x40", "bRequest": "0x6c", "wValue": 0,
                                 "wIndex": 1, "wLength": 1, "payload_hex": "12"},
         "expected_capture": EXPECTED_CAPTURE,
-        "evidence": "observations/driver_reverse_engineering/native-retasking-findings.md",
-        "verification": "Transfer construction tested; hardware recording result is pending",
+        "verification": "Validated rear microphone profile; verify capture on the target machine",
     }
 
 

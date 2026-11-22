@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alc408x-mic"
+version = "0.2.2"
+description = "Portable microphone gain and verified device initialization for Realtek ALC4080/ALC4082 on Linux"
+readme = "INSTALL.md"
+requires-python = ">=3.10"
+classifiers = ["Operating System :: POSIX :: Linux", "Programming Language :: Python :: 3"]
+
+[project.scripts]
+alc408x-mic = "alc408x_mic.cli:main"
+
+[tool.setuptools]
+packages = ["alc408x_mic"]
+py-modules = ["realtek_rear_mic"]
+
+[tool.setuptools.package-data]
+alc408x_mic = ["devices.json"]
